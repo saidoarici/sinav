@@ -7,26 +7,28 @@ import traceback
 app = Flask(__name__)
 app.secret_key = 'secret-key'
 
-# Sorular dosyasının yolu
-QUESTIONS_PATH = 'sorular.json'
+# Sorular dosyalarının yolları
+QUESTIONS_PATH = 'sorular.json'  # Arapça sorular
+TURKISH_QUESTIONS_PATH = 'sorular_turkce.json'  # Türkçe sorular
 
-# Soruları yükle
+# Arapça soruları yükle
 if not os.path.exists(QUESTIONS_PATH):
     raise FileNotFoundError(f"{QUESTIONS_PATH} bulunamadı. Lütfen dosyayı doğru dizine koyun.")
 
 try:
     with open(QUESTIONS_PATH, 'r', encoding='utf-8') as f:
-        all_questions = json.load(f)
+        arabic_questions = json.load(f)
 except Exception as e:
     raise ValueError(f"sorular.json dosyası yüklenemedi: {str(e)}")
 
-# Türkçe soruları yükle
-TURKISH_QUESTIONS_PATH = 'sorular_turkce.json'
+# Arapça soruları ID'ye göre hızlı erişim için sözlük yapısına dönüştürme
+arabic_questions_dict = {str(q['id']): q for q in arabic_questions}
 
-# Türkçe sorular dosyasının varlığını kontrol et
+# Türkçe soruları yükle
 if not os.path.exists(TURKISH_QUESTIONS_PATH):
     print(f"Uyarı: {TURKISH_QUESTIONS_PATH} bulunamadı. Türkçe soru hizmeti sağlanamayacak.")
     turkish_questions = []
+    turkish_questions_dict = {}
 else:
     try:
         with open(TURKISH_QUESTIONS_PATH, 'r', encoding='utf-8') as f:
@@ -35,7 +37,80 @@ else:
         turkish_questions_dict = {str(q['id']): q for q in turkish_questions}
     except Exception as e:
         print(f"Uyarı: sorular_turkce.json dosyası yüklenemedi: {str(e)}")
+        turkish_questions = []
         turkish_questions_dict = {}
+
+
+@app.route('/')
+def index():
+    try:
+        return render_template('exam.html')
+    except Exception as e:
+        traceback.print_exc()
+        return f"Hata: {str(e)}", 500
+
+
+@app.route('/start-exam', methods=['GET'])
+def start_exam():
+    try:
+        # 40 adet rastgele Arapça soru seç (ID referansı olarak kullanılacak)
+        selected_question_ids = random.sample([q['id'] for q in arabic_questions], 40)
+
+        # Doğru cevapları sakla (Arapça sorulara göre)
+        correct_answers = {str(q_id): arabic_questions_dict[str(q_id)]['correct_answer'] for q_id in
+                           selected_question_ids}
+        session['correct_answers'] = correct_answers
+
+        # Kullanıcıya Türkçe soruları gönder (varsa)
+        questions_to_send = []
+        for q_id in selected_question_ids:
+            str_q_id = str(q_id)
+
+            # Öncelikle Türkçe soru var mı diye kontrol et
+            if str_q_id in turkish_questions_dict:
+                # Türkçe soru varsa onu kullan
+                question_data = {
+                    'id': q_id,
+                    'question': turkish_questions_dict[str_q_id]['question'],
+                    'choices': turkish_questions_dict[str_q_id].get('choices', [])
+                }
+            else:
+                # Türkçe soru yoksa Arapça soruyu kullan
+                question_data = {
+                    'id': q_id,
+                    'question': arabic_questions_dict[str_q_id]['question'],
+                    'choices': arabic_questions_dict[str_q_id]['choices']
+                }
+
+            questions_to_send.append(question_data)
+
+        return jsonify({'questions': questions_to_send})
+
+    except ValueError as ve:
+        return jsonify({'error': f'Soru formatı hatalı: {str(ve)}'}), 500
+    except Exception as e:
+        traceback.print_exc()
+        return jsonify({'error': 'Sınav başlatılamadı. Sunucu hatası.'}), 500
+
+
+@app.route('/get-arabic-question/<question_id>')
+def get_arabic_question(question_id):
+    try:
+        # question_id string olmalı
+        question_id = str(question_id)
+
+        if question_id in arabic_questions_dict:
+            arabic_question = arabic_questions_dict[question_id]
+            return jsonify({
+                'question': arabic_question['question'],
+                'id': arabic_question['id'],
+                'choices': arabic_question.get('choices', [])
+            })
+        else:
+            return jsonify({'error': 'Arapça soru bulunamadı.'}), 404
+    except Exception as e:
+        traceback.print_exc()
+        return jsonify({'error': f'Arapça soru alınamadı: {str(e)}'}), 500
 
 
 @app.route('/get-turkish-question/<question_id>')
@@ -49,50 +124,13 @@ def get_turkish_question(question_id):
             return jsonify({
                 'question': turkish_question['question'],
                 'id': turkish_question['id'],
-                'choices': turkish_question.get('choices', [])  # Seçenekleri de dahil et
+                'choices': turkish_question.get('choices', [])
             })
         else:
             return jsonify({'error': 'Türkçe soru bulunamadı.'}), 404
     except Exception as e:
         traceback.print_exc()
         return jsonify({'error': f'Türkçe soru alınamadı: {str(e)}'}), 500
-
-
-
-
-@app.route('/')
-def index():
-    try:
-        return render_template('exam.html')
-    except Exception as e:
-        traceback.print_exc()
-        return f"Hata: {str(e)}", 500
-
-
-@app.route('/start-exam', methods=['GET'])  # frontend bunu bu şekilde çağırıyor
-def start_exam():
-    try:
-        selected_questions = random.sample(all_questions, 40)
-        correct_answers = {str(q['id']): q['correct_answer'] for q in selected_questions}
-        session['correct_answers'] = correct_answers
-
-        # Kullanıcıya doğru cevabı göndermeden soruları ilet
-        questions_to_send = []
-        for q in selected_questions:
-            question_data = {
-                'id': q['id'],
-                'question': q['question'],
-                'choices': q['choices']
-            }
-            questions_to_send.append(question_data)
-
-        return jsonify({'questions': questions_to_send})
-
-    except ValueError as ve:
-        return jsonify({'error': f'Soru formatı hatalı: {str(ve)}'}), 500
-    except Exception as e:
-        traceback.print_exc()
-        return jsonify({'error': 'Sınav başlatılamadı. Sunucu hatası.'}), 500
 
 
 @app.route('/check-answer', methods=['POST'])
@@ -129,9 +167,6 @@ def submit_exam():
     except Exception as e:
         traceback.print_exc()
         return jsonify({'error': 'Sınav sonucu hesaplanamadı.'}), 500
-
-
-
 
 
 # Hata yöneticileri

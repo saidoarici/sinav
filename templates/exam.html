@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="tr" dir="ltr">
 <head>
     <meta charset="UTF-8">
-    <title>اختبار المعلومات</title>
+    <title>Bilgi Testi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <style>
         :root {
@@ -22,7 +22,7 @@
 
         body {
             background-color: var(--background-color);
-            font-family: 'Tajawal', sans-serif;
+            font-family: 'Poppins', sans-serif;
             color: var(--text-color);
             line-height: 1.6;
             padding-bottom: 3rem;
@@ -110,7 +110,7 @@
             margin-top: 0;
             width: 1.25rem;
             height: 1.25rem;
-            margin-left: 1rem;
+            margin-right: 1rem;
         }
 
         .form-check-label {
@@ -235,21 +235,20 @@
 
 <div class="container">
     <div class="exam-header animate__animated animate__fadeIn">
-        <h1 class="exam-title">✍️ اختبار المعلومات العامة</h1>
-        <p class="exam-description">اختر الجواب الصحيح لكل سؤال. تحتاج إلى <strong>28 إجابة صحيحة</strong> للنجاح.</p>
-        <button id="startBtn" class="btn start-button animate__animated animate__pulse animate__infinite animate__slow">ابدأ الاختبار</button>
+        <h1 class="exam-title">✍️ Genel Bilgi Testi</h1>
+        <p class="exam-description">Her soru için doğru cevabı seçin. Başarılı olmak için <strong>28 doğru cevap</strong> gereklidir.</p>
+        <button id="startBtn" class="btn start-button animate__animated animate__pulse animate__infinite animate__slow">Teste Başla</button>
     </div>
 
     <div id="examArea" class="d-none animate__animated animate__fadeIn">
         <div id="questionContainer"></div>
         <div class="text-center">
-            <button class="btn submit-button" onclick="finishExam()">إنهاء الاختبار</button>
+            <button class="btn submit-button" onclick="finishExam()">Testi Bitir</button>
         </div>
         <div id="resultBox" class="text-center d-none animate__animated animate__fadeInUp"></div>
     </div>
 </div>
 
-<!-- Soru başlığının altına Türkçe görüntüleme butonu eklemesi -->
 <script>
     let questions = [];
     const attempted = {}; // Her soru için işaretlenip işaretlenmediğini saklar
@@ -287,29 +286,29 @@
             const qBox = document.createElement("div");
             qBox.className = "question-card";
             qBox.id = `qbox-${q.id}`;
-            qBox.style.direction = "rtl"; // Varsayılan olarak Arapça için RTL
-            qBox.style.textAlign = "right";
+            qBox.style.direction = "ltr"; // LTR yönü Türkçe için
+            qBox.style.textAlign = "left";
 
             const title = document.createElement("h5");
             title.className = "question-title";
             title.innerText = `${index + 1}- ${q.question}`;
             qBox.appendChild(title);
 
-            // Türkçe göster butonu
-            const turkishButton = document.createElement("button");
-            turkishButton.className = "btn btn-sm btn-outline-secondary mb-3";
-            turkishButton.innerText = "Türkçe Göster";
-            turkishButton.onclick = function(e) {
+            // Arapça göster butonu
+            const arabicButton = document.createElement("button");
+            arabicButton.className = "btn btn-sm btn-outline-secondary mb-3";
+            arabicButton.innerText = "Arapça Göster";
+            arabicButton.onclick = function(e) {
                 e.preventDefault();
-                showTurkishQuestion(q.id, title, index);
+                showArabicQuestion(q.id, title, index);
             };
-            qBox.appendChild(turkishButton);
+            qBox.appendChild(arabicButton);
 
-            // Türkçe soru metni div'i (başlangıçta gizli)
-            const turkishQuestion = document.createElement("div");
-            turkishQuestion.className = "question-title turkish-question d-none";
-            turkishQuestion.id = `turkish-q-${q.id}`;
-            qBox.appendChild(turkishQuestion);
+            // Arapça soru metni div'i (başlangıçta gizli)
+            const arabicQuestion = document.createElement("div");
+            arabicQuestion.className = "question-title arabic-question d-none";
+            arabicQuestion.id = `arabic-q-${q.id}`;
+            qBox.appendChild(arabicQuestion);
 
             attempted[q.id] = false;
 
@@ -339,34 +338,34 @@
         updateProgressBar();
     }
 
-    function showTurkishQuestion(questionId, titleElement, index) {
-        const turkishQuestionElement = document.getElementById(`turkish-q-${questionId}`);
+    function showArabicQuestion(questionId, titleElement, index) {
+        const arabicQuestionElement = document.getElementById(`arabic-q-${questionId}`);
         const button = titleElement.nextElementSibling;
         const questionBox = document.getElementById(`qbox-${questionId}`);
         const optionsContainer = document.getElementById(`options-container-${questionId}`);
-        const isTurkishVisible = !turkishQuestionElement.classList.contains('d-none');
+        const isArabicVisible = !arabicQuestionElement.classList.contains('d-none');
 
-        if (!isTurkishVisible) {
-            // Arapça'dan Türkçe'ye geçiş
+        if (!isArabicVisible) {
+            // Türkçe'den Arapça'ya geçiş
             // Eğer daha önce yüklenmemişse, sunucudan getir
-            if (turkishQuestionElement.innerHTML === '') {
-                fetch(`/get-turkish-question/${questionId}`)
+            if (arabicQuestionElement.innerHTML === '') {
+                fetch(`/get-arabic-question/${questionId}`)
                     .then(res => res.json())
                     .then(data => {
                         if (data.question) {
                             // Soru metnini güncelle
-                            turkishQuestionElement.innerHTML = `${index + 1}- ${data.question}`;
-                            turkishQuestionElement.classList.remove('d-none');
-                            button.innerText = "Arapça Göster";
+                            arabicQuestionElement.innerHTML = `${index + 1}- ${data.question}`;
+                            arabicQuestionElement.classList.remove('d-none');
+                            button.innerText = "Türkçe Göster";
                             titleElement.classList.add('d-none');
 
-                            // Türkçe gösterim için yön değiştirme (RTL -> LTR)
-                            questionBox.style.direction = "ltr";
-                            questionBox.style.textAlign = "left";
+                            // Arapça gösterim için yön değiştirme (LTR -> RTL)
+                            questionBox.style.direction = "rtl";
+                            questionBox.style.textAlign = "right";
 
-                            // Seçenekleri Türkçeye çevir
+                            // Seçenekleri Arapçaya çevir
                             if (data.choices && data.choices.length > 0) {
-                                // Orijinal Arapça seçenekleri saklama
+                                // Orijinal Türkçe seçenekleri saklama
                                 if (!questionBox.dataset.hasOwnProperty('originalOptionsHtml')) {
                                     questionBox.dataset.originalOptionsHtml = optionsContainer.innerHTML;
                                 }
@@ -383,7 +382,7 @@
                                 });
                             }
                         } else {
-                            alert("Türkçe soru bulunamadı!");
+                            alert("Arapça soru bulunamadı!");
                         }
                     })
                     .catch(err => {
@@ -392,52 +391,41 @@
                     });
             } else {
                 // Zaten yüklenmişse, sadece göster/gizle
-                turkishQuestionElement.classList.remove('d-none');
-                button.innerText = "Arapça Göster";
+                arabicQuestionElement.classList.remove('d-none');
+                button.innerText = "Türkçe Göster";
                 titleElement.classList.add('d-none');
 
-                // Türkçe gösterim için yön değiştirme
-                questionBox.style.direction = "ltr";
-                questionBox.style.textAlign = "left";
+                // Arapça gösterim için yön değiştirme
+                questionBox.style.direction = "rtl";
+                questionBox.style.textAlign = "right";
 
-                // Kayıtlı Türkçe seçenekleri varsa göster
-                if (questionBox.dataset.turkishOptionsHtml) {
-                    optionsContainer.innerHTML = questionBox.dataset.turkishOptionsHtml;
+                // Kayıtlı Arapça seçenekleri varsa göster
+                if (questionBox.dataset.arabicOptionsHtml) {
+                    optionsContainer.innerHTML = questionBox.dataset.arabicOptionsHtml;
                     // Event listener'ları yeniden ekle
                     setupEventListeners(questionId);
                 }
             }
         } else {
-            // Türkçe'den Arapça'ya geçiş
-            turkishQuestionElement.classList.add('d-none');
-            button.innerText = "Türkçe Göster";
+            // Arapça'dan Türkçe'ye geçiş
+            arabicQuestionElement.classList.add('d-none');
+            button.innerText = "Arapça Göster";
             titleElement.classList.remove('d-none');
 
-            // Arapça gösterim için yönü geri değiştir
-            questionBox.style.direction = "rtl";
-            questionBox.style.textAlign = "right";
+            // Türkçe gösterim için yönü geri değiştir
+            questionBox.style.direction = "ltr";
+            questionBox.style.textAlign = "left";
 
-            // Orijinal Arapça seçenekleri geri yükle
+            // Orijinal Türkçe seçenekleri geri yükle
             if (questionBox.dataset.originalOptionsHtml) {
-                // Mevcut Türkçe seçenekleri sakla
-                questionBox.dataset.turkishOptionsHtml = optionsContainer.innerHTML;
+                // Mevcut Arapça seçenekleri sakla
+                questionBox.dataset.arabicOptionsHtml = optionsContainer.innerHTML;
 
-                // Orijinal Arapça seçenekleri geri yükle
+                // Orijinal Türkçe seçenekleri geri yükle
                 optionsContainer.innerHTML = questionBox.dataset.originalOptionsHtml;
 
                 // Event listener'ları yeniden ekle
                 setupEventListeners(questionId);
-            } else if (originalChoices[questionId]) {
-                // Alternatif olarak orijinal seçenekleri kullan
-                const options = optionsContainer.querySelectorAll('.answer-option');
-                originalChoices[questionId].forEach((choice, idx) => {
-                    if (options[idx]) {
-                        const label = options[idx].querySelector('.form-check-label');
-                        if (label) {
-                            label.innerHTML = `${choice.key}) ${choice.text}`;
-                        }
-                    }
-                });
             }
         }
     }
@@ -520,14 +508,14 @@
             if (result.passed) {
                 resultBox.className = "result-box result-success text-center";
                 resultBox.innerHTML = `
-                    <div>🎉 لقد نجحت في الاختبار!</div>
-                    <div>عدد الإجابات الصحيحة: <span class="result-score">${result.score}/40</span></div>
+                    <div>🎉 Testi başarıyla geçtiniz!</div>
+                    <div>Doğru cevap sayısı: <span class="result-score">${result.score}/40</span></div>
                 `;
             } else {
                 resultBox.className = "result-box result-fail text-center";
                 resultBox.innerHTML = `
-                    <div>❌ لم تنجح في الاختبار.</div>
-                    <div>عدد الإجابات الصحيحة: <span class="result-score">${result.score}/40</span></div>
+                    <div>❌ Testi geçemediniz.</div>
+                    <div>Doğru cevap sayısı: <span class="result-score">${result.score}/40</span></div>
                 `;
             }
 
