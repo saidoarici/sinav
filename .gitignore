@@ -1,6 +1,1 @@
-node_modules/
 .venv/
-.wwebjs_auth/
-.wwebjs_cache/
-.idea/
-.env

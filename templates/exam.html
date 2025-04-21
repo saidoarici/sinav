@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>اختبار المعلومات</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        :root {
+            --primary-color: #6366f1;
+            --primary-hover: #4f46e5;
+            --success-color: #10b981;
+            --danger-color: #ef4444;
+            --background-color: #f8fafc;
+            --card-color: #ffffff;
+            --text-color: #1e293b;
+            --text-secondary: #64748b;
+            --border-color: #e2e8f0;
+        }
+
+        body {
+            background-color: var(--background-color);
+            font-family: 'Tajawal', sans-serif;
+            color: var(--text-color);
+            line-height: 1.6;
+            padding-bottom: 3rem;
+        }
+
+        .container {
+            max-width: 960px;
+        }
+
+        .exam-header {
+            margin: 3rem 0;
+            text-align: center;
+        }
+
+        .exam-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+
+        .exam-description {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+        }
+
+        .start-button {
+            background-color: var(--primary-color);
+            border: none;
+            padding: 1rem 2.5rem;
+            font-size: 1.2rem;
+            font-weight: 500;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .start-button:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+        }
+
+        .question-card {
+            background-color: var(--card-color);
+            border-radius: 16px;
+            padding: 1.75rem 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.03);
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+
+        .question-card:hover {
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+            transform: translateY(-2px);
+        }
+
+        .question-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: var(--text-color);
+            line-height: 1.5;
+        }
+
+        .answer-option {
+            cursor: pointer;
+            transition: all 0.2s ease;
+            padding: 1rem 1.25rem;
+            border-radius: 12px;
+            margin-bottom: 0.75rem;
+            border: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+        }
+
+        .answer-option:hover {
+            background-color: rgba(99, 102, 241, 0.05);
+            border-color: rgba(99, 102, 241, 0.3);
+        }
+
+        .form-check-input {
+            margin-top: 0;
+            width: 1.25rem;
+            height: 1.25rem;
+            margin-left: 1rem;
+        }
+
+        .form-check-label {
+            width: 100%;
+            cursor: pointer;
+            font-size: 1.1rem;
+        }
+
+        .correct {
+            background-color: rgba(16, 185, 129, 0.1) !important;
+            border: 2px solid var(--success-color) !important;
+        }
+
+        .incorrect {
+            background-color: rgba(239, 68, 68, 0.1) !important;
+            border: 2px solid var(--danger-color) !important;
+        }
+
+        .disabled {
+            pointer-events: none;
+            opacity: 0.7;
+        }
+
+        .submit-button {
+            background-color: var(--success-color);
+            border: none;
+            padding: 1rem 2.5rem;
+            font-size: 1.2rem;
+            font-weight: 500;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+            transition: all 0.3s ease;
+            margin: 2rem auto;
+        }
+
+        .submit-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
+            filter: brightness(0.95);
+        }
+
+        .result-box {
+            border-radius: 16px;
+            padding: 2rem;
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin: 2rem auto;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            animation: fadeIn 0.6s;
+        }
+
+        .result-success {
+            background-color: rgba(16, 185, 129, 0.15);
+            border: 2px solid var(--success-color);
+            color: #065f46;
+        }
+
+        .result-fail {
+            background-color: rgba(239, 68, 68, 0.15);
+            border: 2px solid var(--danger-color);
+            color: #991b1b;
+        }
+
+        .result-score {
+            font-size: 2rem;
+            font-weight: 700;
+            display: block;
+            margin-top: 0.5rem;
+        }
+
+        .progress-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(255, 255, 255, 0.9);
+            z-index: 1000;
+            height: 8px;
+            box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .progress-bar {
+            height: 100%;
+            width: 0;
+            background-color: var(--primary-color);
+            transition: width 0.3s ease;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        @media (max-width: 768px) {
+            .exam-title {
+                font-size: 2rem;
+            }
+
+            .question-card {
+                padding: 1.25rem;
+            }
+
+            .question-title {
+                font-size: 1.1rem;
+            }
+
+            .answer-option {
+                padding: 0.75rem 1rem;
+            }
+
+            .form-check-label {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="progress-container d-none" id="progressContainer">
+    <div class="progress-bar" id="progressBar"></div>
+</div>
+
+<div class="container">
+    <div class="exam-header animate__animated animate__fadeIn">
+        <h1 class="exam-title">✍️ اختبار المعلومات العامة</h1>
+        <p class="exam-description">اختر الجواب الصحيح لكل سؤال. تحتاج إلى <strong>28 إجابة صحيحة</strong> للنجاح.</p>
+        <button id="startBtn" class="btn start-button animate__animated animate__pulse animate__infinite animate__slow">ابدأ الاختبار</button>
+    </div>
+
+    <div id="examArea" class="d-none animate__animated animate__fadeIn">
+        <div id="questionContainer"></div>
+        <div class="text-center">
+            <button class="btn submit-button" onclick="finishExam()">إنهاء الاختبار</button>
+        </div>
+        <div id="resultBox" class="text-center d-none animate__animated animate__fadeInUp"></div>
+    </div>
+</div>
+
+<!-- Soru başlığının altına Türkçe görüntüleme butonu eklemesi -->
+<script>
+    let questions = [];
+    const attempted = {}; // Her soru için işaretlenip işaretlenmediğini saklar
+    let answeredCount = 0;
+    let originalChoices = {}; // Arapça seçenekleri saklamak için
+
+    document.getElementById("startBtn").addEventListener("click", () => {
+        fetch("/start-exam")
+            .then(res => res.json())
+            .then(data => {
+                questions = data.questions;
+                // Orijinal Arapça seçenekleri kaydet
+                questions.forEach(q => {
+                    originalChoices[q.id] = [...q.choices];
+                });
+                document.getElementById("startBtn").classList.add("d-none");
+                document.getElementById("examArea").classList.remove("d-none");
+                document.getElementById("progressContainer").classList.remove("d-none");
+                renderQuestions();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+    });
+
+    function updateProgressBar() {
+        const totalQuestions = questions.length;
+        const percentage = (answeredCount / totalQuestions) * 100;
+        document.getElementById("progressBar").style.width = `${percentage}%`;
+    }
+
+    function renderQuestions() {
+        const container = document.getElementById("questionContainer");
+        container.innerHTML = "";
+
+        questions.forEach((q, index) => {
+            const qBox = document.createElement("div");
+            qBox.className = "question-card";
+            qBox.id = `qbox-${q.id}`;
+            qBox.style.direction = "rtl"; // Varsayılan olarak Arapça için RTL
+            qBox.style.textAlign = "right";
+
+            const title = document.createElement("h5");
+            title.className = "question-title";
+            title.innerText = `${index + 1}- ${q.question}`;
+            qBox.appendChild(title);
+
+            // Türkçe göster butonu
+            const turkishButton = document.createElement("button");
+            turkishButton.className = "btn btn-sm btn-outline-secondary mb-3";
+            turkishButton.innerText = "Türkçe Göster";
+            turkishButton.onclick = function(e) {
+                e.preventDefault();
+                showTurkishQuestion(q.id, title, index);
+            };
+            qBox.appendChild(turkishButton);
+
+            // Türkçe soru metni div'i (başlangıçta gizli)
+            const turkishQuestion = document.createElement("div");
+            turkishQuestion.className = "question-title turkish-question d-none";
+            turkishQuestion.id = `turkish-q-${q.id}`;
+            qBox.appendChild(turkishQuestion);
+
+            attempted[q.id] = false;
+
+            const optionsContainer = document.createElement("div");
+            optionsContainer.className = "options-container";
+            optionsContainer.id = `options-container-${q.id}`;
+
+            q.choices.forEach(choice => {
+                const opt = document.createElement("div");
+                opt.className = "form-check answer-option";
+                opt.id = `q${q.id}-${choice.key}`;
+                opt.innerHTML = `
+                    <input class="form-check-input" type="radio" name="q${q.id}" value="${choice.key}" id="q${q.id}-radio-${choice.key}">
+                    <label class="form-check-label" for="q${q.id}-radio-${choice.key}">
+                        ${choice.key}) ${choice.text}
+                    </label>
+                `;
+
+                opt.addEventListener("click", () => handleAnswer(q.id, choice.key));
+                optionsContainer.appendChild(opt);
+            });
+
+            qBox.appendChild(optionsContainer);
+            container.appendChild(qBox);
+        });
+
+        updateProgressBar();
+    }
+
+    function showTurkishQuestion(questionId, titleElement, index) {
+        const turkishQuestionElement = document.getElementById(`turkish-q-${questionId}`);
+        const button = titleElement.nextElementSibling;
+        const questionBox = document.getElementById(`qbox-${questionId}`);
+        const optionsContainer = document.getElementById(`options-container-${questionId}`);
+        const isTurkishVisible = !turkishQuestionElement.classList.contains('d-none');
+
+        if (!isTurkishVisible) {
+            // Arapça'dan Türkçe'ye geçiş
+            // Eğer daha önce yüklenmemişse, sunucudan getir
+            if (turkishQuestionElement.innerHTML === '') {
+                fetch(`/get-turkish-question/${questionId}`)
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.question) {
+                            // Soru metnini güncelle
+                            turkishQuestionElement.innerHTML = `${index + 1}- ${data.question}`;
+                            turkishQuestionElement.classList.remove('d-none');
+                            button.innerText = "Arapça Göster";
+                            titleElement.classList.add('d-none');
+
+                            // Türkçe gösterim için yön değiştirme (RTL -> LTR)
+                            questionBox.style.direction = "ltr";
+                            questionBox.style.textAlign = "left";
+
+                            // Seçenekleri Türkçeye çevir
+                            if (data.choices && data.choices.length > 0) {
+                                // Orijinal Arapça seçenekleri saklama
+                                if (!questionBox.dataset.hasOwnProperty('originalOptionsHtml')) {
+                                    questionBox.dataset.originalOptionsHtml = optionsContainer.innerHTML;
+                                }
+
+                                // Seçenek içeriğini güncelle
+                                const options = optionsContainer.querySelectorAll('.answer-option');
+                                data.choices.forEach((choice, idx) => {
+                                    if (options[idx]) {
+                                        const label = options[idx].querySelector('.form-check-label');
+                                        if (label) {
+                                            label.innerHTML = `${choice.key}) ${choice.text}`;
+                                        }
+                                    }
+                                });
+                            }
+                        } else {
+                            alert("Türkçe soru bulunamadı!");
+                        }
+                    })
+                    .catch(err => {
+                        alert("Soru yüklenirken hata oluştu!");
+                        console.error(err);
+                    });
+            } else {
+                // Zaten yüklenmişse, sadece göster/gizle
+                turkishQuestionElement.classList.remove('d-none');
+                button.innerText = "Arapça Göster";
+                titleElement.classList.add('d-none');
+
+                // Türkçe gösterim için yön değiştirme
+                questionBox.style.direction = "ltr";
+                questionBox.style.textAlign = "left";
+
+                // Kayıtlı Türkçe seçenekleri varsa göster
+                if (questionBox.dataset.turkishOptionsHtml) {
+                    optionsContainer.innerHTML = questionBox.dataset.turkishOptionsHtml;
+                    // Event listener'ları yeniden ekle
+                    setupEventListeners(questionId);
+                }
+            }
+        } else {
+            // Türkçe'den Arapça'ya geçiş
+            turkishQuestionElement.classList.add('d-none');
+            button.innerText = "Türkçe Göster";
+            titleElement.classList.remove('d-none');
+
+            // Arapça gösterim için yönü geri değiştir
+            questionBox.style.direction = "rtl";
+            questionBox.style.textAlign = "right";
+
+            // Orijinal Arapça seçenekleri geri yükle
+            if (questionBox.dataset.originalOptionsHtml) {
+                // Mevcut Türkçe seçenekleri sakla
+                questionBox.dataset.turkishOptionsHtml = optionsContainer.innerHTML;
+
+                // Orijinal Arapça seçenekleri geri yükle
+                optionsContainer.innerHTML = questionBox.dataset.originalOptionsHtml;
+
+                // Event listener'ları yeniden ekle
+                setupEventListeners(questionId);
+            } else if (originalChoices[questionId]) {
+                // Alternatif olarak orijinal seçenekleri kullan
+                const options = optionsContainer.querySelectorAll('.answer-option');
+                originalChoices[questionId].forEach((choice, idx) => {
+                    if (options[idx]) {
+                        const label = options[idx].querySelector('.form-check-label');
+                        if (label) {
+                            label.innerHTML = `${choice.key}) ${choice.text}`;
+                        }
+                    }
+                });
+            }
+        }
+    }
+
+    function setupEventListeners(questionId) {
+        // Radio butonları için event listener'ları yeniden ekle
+        const optionsContainer = document.getElementById(`options-container-${questionId}`);
+        const options = optionsContainer.querySelectorAll('.answer-option');
+
+        options.forEach(opt => {
+            const radioInput = opt.querySelector('input[type="radio"]');
+            if (radioInput) {
+                const choiceKey = radioInput.value;
+
+                // Eğer daha önce işaretlenmiş ise yeniden işaretle
+                if (attempted[questionId]) {
+                    radioInput.disabled = true;
+                    opt.classList.add("disabled");
+                } else {
+                    opt.addEventListener("click", () => handleAnswer(questionId, choiceKey));
+                }
+            }
+        });
+    }
+
+    function handleAnswer(qid, selectedKey) {
+        if (attempted[qid]) return;  // Sadece ilk seçimi değerlendir
+        attempted[qid] = true;
+        answeredCount++;
+        updateProgressBar();
+
+        fetch("/check-answer", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ question_id: qid, answer: selectedKey })
+        })
+        .then(res => res.json())
+        .then(result => {
+            const selectedOption = document.getElementById(`q${qid}-${selectedKey}`);
+            const allInputs = document.querySelectorAll(`input[name="q${qid}"]`);
+            allInputs.forEach(i => i.disabled = true);
+
+            const allOptions = document.querySelectorAll(`#qbox-${qid} .answer-option`);
+            allOptions.forEach(opt => opt.classList.add("disabled"));
+
+            if (result.correct) {
+                selectedOption.classList.add("correct");
+            } else {
+                selectedOption.classList.add("incorrect");
+
+                // Doğru cevabı bul ve işaretle
+                const correctKey = result.correct_answer;
+                const correctDiv = document.getElementById(`q${qid}-${correctKey}`);
+                if (correctDiv) {
+                    correctDiv.classList.add("correct");
+                }
+            }
+        });
+    }
+
+    function finishExam() {
+        const answers = {};
+        questions.forEach(q => {
+            const selected = document.querySelector(`input[name="q${q.id}"]:checked`);
+            if (selected) {
+                answers[q.id] = selected.value;
+            }
+        });
+
+        fetch("/submit-exam", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ answers: answers })
+        })
+        .then(res => res.json())
+        .then(result => {
+            const resultBox = document.getElementById("resultBox");
+            resultBox.classList.remove("d-none");
+
+            if (result.passed) {
+                resultBox.className = "result-box result-success text-center";
+                resultBox.innerHTML = `
+                    <div>🎉 لقد نجحت في الاختبار!</div>
+                    <div>عدد الإجابات الصحيحة: <span class="result-score">${result.score}/40</span></div>
+                `;
+            } else {
+                resultBox.className = "result-box result-fail text-center";
+                resultBox.innerHTML = `
+                    <div>❌ لم تنجح في الاختبار.</div>
+                    <div>عدد الإجابات الصحيحة: <span class="result-score">${result.score}/40</span></div>
+                `;
+            }
+
+            // Sonuçlara kaydır
+            resultBox.scrollIntoView({ behavior: 'smooth' });
+        });
+    }
+</script>
+
+</body>
+</html>

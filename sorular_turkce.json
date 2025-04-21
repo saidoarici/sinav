@@ -1,0 +1,3728 @@
+[
+    {
+        "id": 1,
+        "question": "Aşağıdakllerden hangisi taşımacılıkta ölçek ekonomisini açıklamaktadır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Taşınan yük miktarı arttıkça taşıma maliyeti azalır"
+            },
+            {
+                "key": "B",
+                "text": "Taşınan yük miktarı azaldıkça taşınan yük birim maliyeti azalır"
+            },
+            {
+                "key": "C",
+                "text": "Taşınan yük miktarı artııkça, taşınan yük birim maliyeti azalır."
+            },
+            {
+                "key": "D",
+                "text": "Taşımacılıkta ölçek ekonomisinin yaşınan yük miktarı ile değil , taşınan mesafe ile ilişkisi vardır"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 2,
+        "question": "Aşağıdakilerden hangisi görülemeyen/ölçülemeyen sorunlardan birisi değildir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Müşteri tatminsizliği"
+            },
+            {
+                "key": "B",
+                "text": "Üretim hataları"
+            },
+            {
+                "key": "C",
+                "text": "Pazar kaybı"
+            },
+            {
+                "key": "D",
+                "text": "Şirketin imajının zedelenmesi"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 3,
+        "question": "Aşağıdakilerden hangisi sigorta işlemlerinde kullanılan belgelerden birisi değildir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Poliçe"
+            },
+            {
+                "key": "B",
+                "text": "Teminat mektubu"
+            },
+            {
+                "key": "C",
+                "text": "Temditname"
+            },
+            {
+                "key": "D",
+                "text": "Zeyilname"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 4,
+        "question": "Yetki belgesi sahipleri, hangi süreler içerisinde sürücülerin ceza puanı durumunu Emniyet Genel\nMüdürlüğünden öğrenmek zorundadır ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Yılda bir kez"
+            },
+            {
+                "key": "B",
+                "text": "İkişer aylık süre ile yılda altı kez"
+            },
+            {
+                "key": "C",
+                "text": "Üçer Aylık süre ile yılda dört kez"
+            },
+            {
+                "key": "D",
+                "text": "Altışar aylık süre ile yılda iki kez"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 5,
+        "question": "Taşıyanın taşıma akdinden doğan sorumluluğu ne zaman başlar ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Yüklemeyle"
+            },
+            {
+                "key": "B",
+                "text": "Gümrüğe Teslimle"
+            },
+            {
+                "key": "C",
+                "text": "Zilyetliğine geçmesiyle"
+            },
+            {
+                "key": "D",
+                "text": "İstiflemeyle"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 6,
+        "question": "İşletmelerin pazarlama yatırımlarında ‘’en çok payı alan müşteri grubu’’ aşağıdakilerden hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Potansiyel müşteriler"
+            },
+            {
+                "key": "B",
+                "text": "Müşteriler"
+            },
+            {
+                "key": "C",
+                "text": "Sürekli müşteriler"
+            },
+            {
+                "key": "D",
+                "text": "Sadık müşteriler"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 7,
+        "question": "Karayolu Taşıma Yönetmeliğine göre yolcu taşımacılığında kullanılan taşıtlarda boyun korsesi\nbulundurma zorunluluğu ile ilgili olarak aşağıdaki ifadelerden hangisi doğrudur ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Her 9 koltuk için en az 1 adet olmak üzere,boyun korsesi bulundurulması zorunludur."
+            },
+            {
+                "key": "B",
+                "text": "Her 12 koltuk için en az 1 adet olmak üzere, boyun korsesi bulundurulması zorunludur."
+            },
+            {
+                "key": "C",
+                "text": "Her 14 koltuk için en az 1 adet olmak üzere, boyun korsesi bulundurulması zorunludur."
+            },
+            {
+                "key": "D",
+                "text": "Her 15 koltuk için en az 1 adet olmak üzere, boyun korsesi bulundurulması zorunludur."
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 8,
+        "question": "Denetim ve ceza korkusu olmadan yazılı kurallar uymanın yanı sıra yazılı olmayan, trafik içerisinde\nkarşılıklı anlayış ve empati gerektiren davranışları oluşturma ve bu davranışları alışkanlık haline\ngetirmedir? Bu cümlede tanımı yapılan kavram, aşağıdakilerden hangisidir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Micaz"
+            },
+            {
+                "key": "B",
+                "text": "Beden dili"
+            },
+            {
+                "key": "C",
+                "text": "Trafik adabı"
+            },
+            {
+                "key": "D",
+                "text": "Konuşma üslubu"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 9,
+        "question": "Aşağıdakilerden hangisi meslek ahlakı ilkelerindendir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Mesleğe bağlı olmak"
+            },
+            {
+                "key": "B",
+                "text": "İşe bağlı olmak."
+            },
+            {
+                "key": "C",
+                "text": "Mesleki anlamda yetersiz olmak"
+            },
+            {
+                "key": "D",
+                "text": "Kişiye göre davranmak."
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 10,
+        "question": "Eşyanın serbest bölgelerde kalabileceği süre nedir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "1 ay"
+            },
+            {
+                "key": "B",
+                "text": "3 ay"
+            },
+            {
+                "key": "C",
+                "text": "6 ay"
+            },
+            {
+                "key": "D",
+                "text": "Süre sınırı yoktur."
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 11,
+        "question": "Aşağıdaki hallerin hangisinde sürücü araç kullanmaktan men edilir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Araca Zorunlu mali sorumluluk sigortası yaptırmamışsa"
+            },
+            {
+                "key": "B",
+                "text": "Uyuşturucu madde alarak araç kullanıyorsa"
+            },
+            {
+                "key": "C",
+                "text": "Taşıma sınırından fazla yük yüklemişse"
+            },
+            {
+                "key": "D",
+                "text": "Taşıma sınırından fazla yolcu yüklemişse"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 12,
+        "question": "Aşağıdaki davranışlardan hangisi trafiğin akışını olumsuz etkiler ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Gidişe ayrılan yolda sürekli soldaki şeridi işgal etmek"
+            },
+            {
+                "key": "B",
+                "text": "Çok şeritli yollarda hızın gerektirdiği şeritten seyretmek"
+            },
+            {
+                "key": "C",
+                "text": "Gidiş yönüne göre en sağdaki Şeritten seyretmek"
+            },
+            {
+                "key": "D",
+                "text": "Girilecek şeritteki aracın geçmesini beklemek"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 13,
+        "question": "Aşağıdakilerden hangisi , Karayolu Taşıma Kanunu’nun amacıdır ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Karayolu taşımalarını ülke ekonomisinin gerektirdiği şekilde düzenlemek"
+            },
+            {
+                "key": "B",
+                "text": "Taşımada düzeni ve güvenliği sağlamak"
+            },
+            {
+                "key": "C",
+                "text": "Taşıma işlerinde istihdam edilen kişilerin niteliklerini belirlemek"
+            },
+            {
+                "key": "D",
+                "text": "Hepsi."
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 14,
+        "question": "Kara yollarında can ve mal güvenliği yönünden; trafik düzeninin sağlanması ve alınacak\nönlemlerin belirlenmesi amacıyla çıkarılan kanun aşağıdakilerden hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Medeni Kanun"
+            },
+            {
+                "key": "B",
+                "text": "Türk Ceza Kanunu"
+            },
+            {
+                "key": "C",
+                "text": "Karayolları Trafik Kanunu"
+            },
+            {
+                "key": "D",
+                "text": "2872 Sayılı Çevre kanunu"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 15,
+        "question": "İnsan, Hayvan ve araçların karayolu üzerindeki hal ve kareketlerine ne denir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Karayolu"
+            },
+            {
+                "key": "B",
+                "text": "Ulaşım"
+            },
+            {
+                "key": "C",
+                "text": "Taşıt yolu"
+            },
+            {
+                "key": "D",
+                "text": "Trafik"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 16,
+        "question": "Karayolu Taşıma Yönetmeliği’ne göre, aşağıdakilerden hangisi yanlıştır ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Araçlarda yapılan tadilatların ilgili mevzuata uygun ve araç tescil belgesine işlenmiş olması\nzorunludur"
+            },
+            {
+                "key": "B",
+                "text": "Soğutam tertibatı bulunanlar hariç römork ve yarı römorklarda yakıt deposu bulundurulmaz."
+            },
+            {
+                "key": "C",
+                "text": "Soğutam tertibatı bulunan römork ve yarı römorklarda sadece soğutma tertibatının çalıştırılması\niçin gereken yakıt deposu bulundurulabilir."
+            },
+            {
+                "key": "D",
+                "text": "Taşıtların yakıt depolarının toplam hacimlerine Maliye Bakanlığı tarafından sınırlandırma\ngetirilebilir."
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 17,
+        "question": "Taşımacılıkla ilgili işleri yürütmekle görevli genel müdürlük aşağıdakilerden hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Kara yolları Genel Müdürlüğü"
+            },
+            {
+                "key": "B",
+                "text": "Trafik Daire Başkanlığı"
+            },
+            {
+                "key": "C",
+                "text": "Ulaştırma Hizmetleri Düzenleme Genel Müdürlüğü"
+            },
+            {
+                "key": "D",
+                "text": "Gümrük Müsteşarlığı"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 18,
+        "question": "Tarifeli olarak ticari amaçla kargo işletmeciliği yapacak gerçek ve tüzel kişiler hangi yetki belgesini\nalmak zorundadır ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "L yetki Belgesi"
+            },
+            {
+                "key": "B",
+                "text": "M Yetki Belgesi"
+            },
+            {
+                "key": "C",
+                "text": "N Yetki Belgesi"
+            },
+            {
+                "key": "D",
+                "text": "T Yetki Belgesi"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 19,
+        "question": "Ticari amaçla nakliyat ambarı işletmeciliği yapacak gerçek ve tüzel kişiler hangi yetki belgesini\nalmak zorundadır ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "L yetki Belgesi"
+            },
+            {
+                "key": "B",
+                "text": "M Yetki Belgesi"
+            },
+            {
+                "key": "C",
+                "text": "N Yetki Belgesi"
+            },
+            {
+                "key": "D",
+                "text": "T Yetki Belgesi"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 20,
+        "question": "M ve P türü yetki belgesi sahipleri; teslim aldıkları eşyayı, teslim aldıkları günden itibaren, yurtdışı\ntaşımalarda en geç kaç gün içinde taşımak ve bu süreler içinde teslimat şekline uygun olarakalıcısına\nulaştırmakla yükümlüdürler ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "7"
+            },
+            {
+                "key": "B",
+                "text": "10"
+            },
+            {
+                "key": "C",
+                "text": "14"
+            },
+            {
+                "key": "D",
+                "text": "15"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 21,
+        "question": "C2 Yetki belgesinde asgari araç kapasitesi kaçtır ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "5"
+            },
+            {
+                "key": "B",
+                "text": "8"
+            },
+            {
+                "key": "C",
+                "text": "10"
+            },
+            {
+                "key": "D",
+                "text": "11"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 22,
+        "question": "D1 Yetki belgesi için başvuranların; ticari olarak kayıt ve tescil edilmiş öz mal otobüslere, toplam\nkaç koltuk sahibi olmaları şarttır ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "100"
+            },
+            {
+                "key": "B",
+                "text": "150"
+            },
+            {
+                "key": "C",
+                "text": "250"
+            },
+            {
+                "key": "D",
+                "text": "300"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 23,
+        "question": "Aşağıdaklilerden hangisi şoförlerde aranacak nitelik ve şartlardan birisi değildir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Taşıtın niteliğine uygun sürücü belgesine sahip olmaları"
+            },
+            {
+                "key": "B",
+                "text": "İlgili mevzuatın öngördüğü mesleki yeterlilik belgesine sahip olmaları"
+            },
+            {
+                "key": "C",
+                "text": "Büyük otobüs kullananlarının 26 yaşından gün almış olmaları"
+            },
+            {
+                "key": "D",
+                "text": "68 yaşından gün almamış olmaları"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 24,
+        "question": "Ticari araçların, teknik şartlara uygunluğu açısından periyodik muayenesi ile ilgili olarak\naşağıdakilerden hangisi doğrudur ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "İlk 1 yaş sonunda ve devamında yılda bir"
+            },
+            {
+                "key": "B",
+                "text": "ilk 2 yaş sonunda ve devamında yılda bir"
+            },
+            {
+                "key": "C",
+                "text": "İlk 3 yaş sonunda ve devamında her 2 yılda bir"
+            },
+            {
+                "key": "D",
+                "text": "İlk 3 yaş sonunda ve devamında 3 yılda bir"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 25,
+        "question": "Aksine bir işaret yoksa, eğimsiz iki yönlü dar yolda, otomobil ile kamyonun karşılaşması halinde\nhangisi diğerine yol vermelidir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Kamyon , otomobile"
+            },
+            {
+                "key": "B",
+                "text": "Otomobil, Kamyona"
+            },
+            {
+                "key": "C",
+                "text": "Trafik yoğunluğu fazla olan yöndeki taşıt,diğerine"
+            },
+            {
+                "key": "D",
+                "text": "Trafik yoğunluğu az olan yöndeki taşıt, diğerine"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 26,
+        "question": "Kollarında üç yuvarlaklı sarı bant bulunan ve beyaz baston taşıyan yayayı taşıt yolunda gören\nsürücü nasıl haraket etmelidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Etkili şekilde korna çalmalıdır."
+            },
+            {
+                "key": "B",
+                "text": "Selektör yapıp, yayanın dikkatıni çekmelidir"
+            },
+            {
+                "key": "C",
+                "text": "Durmalı, gerektiğinde yayaya yardımcı olmalıdır."
+            },
+            {
+                "key": "D",
+                "text": "Yayayı korkutmadan yanından hızlıca geçmelidir."
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 27,
+        "question": "Yurt içi taşımalarda, gönderen tarafından gönderilen eşya için düzenlenen; eşyanın\niçeriğini,ağırlığını,hacmini,paketleme veya ambalaj şekli ile gerçek değerini belirleyen belgeye ne\ndenir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Sevk irsaliyesi"
+            },
+            {
+                "key": "B",
+                "text": "Taşıma senedi"
+            },
+            {
+                "key": "C",
+                "text": "Yetki belgesi"
+            },
+            {
+                "key": "D",
+                "text": "Taşıt belgesi"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 28,
+        "question": "Karayollarında trafiğie çıkarılacak araçlarda yüklü ve yüksüz olarak uyulacak boyutlar açısından\naşağıdakilernden hangisi doğrudur?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Azami Genişlik- Azami yükseklik 2.00metre 4.00 metre"
+            },
+            {
+                "key": "B",
+                "text": "Azami Genişlik- Azami yükseklik 2.55metre 4.00 metre"
+            },
+            {
+                "key": "C",
+                "text": "Azami Genişlik- Azami yükseklik 2.75metre 4.25 metre"
+            },
+            {
+                "key": "D",
+                "text": "Azami Genişlik- Azami yükseklik 2.55metre 4.50 metre"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 29,
+        "question": "Nakliyecinin taşıdığı malın değerinin azalmasına neden olan her türlü maddi kötüleşme ne olarak\ntanımlanır ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Mülkiyet"
+            },
+            {
+                "key": "B",
+                "text": "Hasar"
+            },
+            {
+                "key": "C",
+                "text": "Halefiyet"
+            },
+            {
+                "key": "D",
+                "text": "Floatan"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 30,
+        "question": "Aşağıdakilernden hangisi 4925 sayılı Karayolu Taşıma Kanunu’na göre taşımacının yükümlülüğü\ndeğildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "İlgili mevzuat hükümlerine uygun bir taşıt sefere göndermek"
+            },
+            {
+                "key": "B",
+                "text": "Şoförlerin sürücü belgelerinin bulunup bulunmadığını araştırmak"
+            },
+            {
+                "key": "C",
+                "text": "Teknik şartlara uymayan taşıtların trafiğe çıkmasına engel olmak"
+            },
+            {
+                "key": "D",
+                "text": "Yolcu ve eşyayı istenildiği taktirde taahhüt edilen yerinde dışında başka bir yere götürmek."
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 31,
+        "question": "Aşağıdaki hangi durumda aracın işletenin sorumluluğu kalkmaz veya azalmaz?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Kazanın, mücbir sebepten kaynaklanması"
+            },
+            {
+                "key": "B",
+                "text": "Kazanın, Zarar görenin ağır kusurundan kaynaklanması"
+            },
+            {
+                "key": "C",
+                "text": "Kazanıni, sürücünün ağır kusurundan kaynaklanması"
+            },
+            {
+                "key": "D",
+                "text": "Kazanın, üçüncü kişinin ağır kusurundan kaynaklanması"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 32,
+        "question": "Göndericinin, taşınan eşyaüzrindeki tasarruf hakkı ne zaman son bulur?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Sevk mektubunun imzalamasıyla"
+            },
+            {
+                "key": "B",
+                "text": "Eşyanın varış yerine ulaşmasıyla"
+            },
+            {
+                "key": "C",
+                "text": "Sevk mektubunun ikinci nüshasının alıcıya verilmesiyle"
+            },
+            {
+                "key": "D",
+                "text": "Eşyanın gümrük işlemlerinin tamamlanmasıyla"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 33,
+        "question": "Ani ve beklenmedik risklere karşı, önceden ödenen prim karşılığında olası riskin sigorta şirketine\ntransferini kapsayan iki taraflı sözleşmeye ne denir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Taşıma sözleşmesi"
+            },
+            {
+                "key": "B",
+                "text": "Kira sözleşmesi"
+            },
+            {
+                "key": "C",
+                "text": "Sigorta Sözleşmesi"
+            },
+            {
+                "key": "D",
+                "text": "Koruma Sözleşmesi"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 34,
+        "question": "Bir sigorata sözleşmesinin oluşumunda, tamamen karşı tarafın vermiş olduğu bilgiye güvenmek\ndurumunda olmaları hangi kavramla ifade edilir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Halefiyet"
+            },
+            {
+                "key": "B",
+                "text": "Zilliyet"
+            },
+            {
+                "key": "C",
+                "text": "Azami iyi niyet"
+            },
+            {
+                "key": "D",
+                "text": "Dürüstlük"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 35,
+        "question": "Tescil edilmeyen aracın satın alınması halinde ne kadar süre zarfında tescil edilmesi\ngerekmektedir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "1 AY"
+            },
+            {
+                "key": "B",
+                "text": "2 Ay"
+            },
+            {
+                "key": "C",
+                "text": "3 Ay"
+            },
+            {
+                "key": "D",
+                "text": "6 Ay"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 36,
+        "question": "Kasko hangi hallerde ödediği ücreti araç sahibine rücu eder?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Alkollü kaza yapmışsa"
+            },
+            {
+                "key": "B",
+                "text": "Araç devrilmişse"
+            },
+            {
+                "key": "C",
+                "text": "Üçüncü şahısların araca zarar vermesi durumunda"
+            },
+            {
+                "key": "D",
+                "text": "Sürücü kusurundan dolayı kazaya karışmışsa"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 37,
+        "question": "Aşağıdakilerden hangisi zorunlu sigorta çeşitlerinden birisi değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Koltuk Ferdi Kaza Sigortası"
+            },
+            {
+                "key": "B",
+                "text": "Kasko Sigortası"
+            },
+            {
+                "key": "C",
+                "text": "Tehlikeli Maddeler Sorumluluk Sigortası"
+            },
+            {
+                "key": "D",
+                "text": "Tüpgaz Sorumluluk Sigortası"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 38,
+        "question": "CMR belgesi, hangi taşımacılık üzerinden kullanılan mal taşıma belgesidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Demiryolu"
+            },
+            {
+                "key": "B",
+                "text": "Denizyolu"
+            },
+            {
+                "key": "C",
+                "text": "Karayolu"
+            },
+            {
+                "key": "D",
+                "text": "Havayolu"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 39,
+        "question": "Aşağıdaki taşımalardan hangisi CMR kapsamına girmektedir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Ev eşyası taşımaları"
+            },
+            {
+                "key": "B",
+                "text": "Cenaze nakilleri"
+            },
+            {
+                "key": "C",
+                "text": "Uluslararası posta anlaşmaları gereğince yapılan taşımalar"
+            },
+            {
+                "key": "D",
+                "text": "Canlı Hayvan taşımaları"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 40,
+        "question": "CMR ‘e göre teslimde gecikmeden dolayı zarar ve ziyanhalinde ödenecek tazminatın sınırı nedir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Navlun bedeli"
+            },
+            {
+                "key": "B",
+                "text": "Mal bedeli"
+            },
+            {
+                "key": "C",
+                "text": "Kilo başına 8,33 SDR."
+            },
+            {
+                "key": "D",
+                "text": "İstenen tazminat kadar"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 41,
+        "question": "Sigortacılar, CMR konvansiyonuna göre, tazminat ödeme miktarı belirlerken kullandıkları 8.33 SDR\nhesaplamasında malın hangi özelliğini dikkate alırlar?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Kalitesi"
+            },
+            {
+                "key": "B",
+                "text": "Adet veya net ağırlığı"
+            },
+            {
+                "key": "C",
+                "text": "Cinsi ve ağırlığı"
+            },
+            {
+                "key": "D",
+                "text": "Brüt ağırlığı"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 42,
+        "question": "Aşağıdakilerden hangisi, uluslararası bir taşıma sözleşmesinde bulunması gereken bilgilerden biri\ndeğildir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Göndericinin adı adresi"
+            },
+            {
+                "key": "B",
+                "text": "Taşınacak malın tanımı"
+            },
+            {
+                "key": "C",
+                "text": "Taşıma sözleşmesinin tarih ve numarası"
+            },
+            {
+                "key": "D",
+                "text": "Taşımacının aracının teknik özellikleri"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 43,
+        "question": "Aşağıdakilerden hangisi gerekli durumlarda sevk mektubunda yer alması zorunlu olanlardan biri\ndeğildir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Not"
+            },
+            {
+                "key": "B",
+                "text": "Lüsha"
+            },
+            {
+                "key": "C",
+                "text": "Liste"
+            },
+            {
+                "key": "D",
+                "text": "İmza"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 44,
+        "question": "Aşağıdakilerden hangisi eşyanın kendi ağırlığıdır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Darasız Ağırlık"
+            },
+            {
+                "key": "B",
+                "text": "Net ağırlık"
+            },
+            {
+                "key": "C",
+                "text": "Brüt Ağırlık"
+            },
+            {
+                "key": "D",
+                "text": "Hiçbiri"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 45,
+        "question": "İthalat ya da İhracat bilgilerine istinaden hazırlanan gümrük beyannamesinin, elektronik veri\nalışverişi(EDI) veya Bilgisayarlı Gümrük Etkinlikleri(BİLGE) sistemiyle onaylanmasına ne ad verilir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Hamule senedi"
+            },
+            {
+                "key": "B",
+                "text": "ATA karnesi"
+            },
+            {
+                "key": "C",
+                "text": "Özet beyan"
+            },
+            {
+                "key": "D",
+                "text": "Tescil"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 46,
+        "question": "Aşağıdakilerden hangisi, gümrükçe onaylanmış bir işlem değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Eşyayı geçici depolama yerinde bekletmek"
+            },
+            {
+                "key": "B",
+                "text": "Eşyayı İmha etmek"
+            },
+            {
+                "key": "C",
+                "text": "Eşyayı transit rejminde taşımak"
+            },
+            {
+                "key": "D",
+                "text": "Eşyayı bir serbest bölgeye koymak"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 47,
+        "question": "5607 sayılı Kaçakçılıkla Mücadele Kanununa göre ihraç eşyasının gümrüklenmiş değerinden ne\nanlaşılır ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Eşyanın FOB kıymeti ile gümrük vergileri toplamı"
+            },
+            {
+                "key": "B",
+                "text": "eşyanın CIF kıymeti ile gümrük vergileri toplamı"
+            },
+            {
+                "key": "C",
+                "text": "Eşyanın FOB kıymeti"
+            },
+            {
+                "key": "D",
+                "text": "eşyanın CIF kıymeti"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 48,
+        "question": "Fazlalığa ilişkin olarak verilen süre sınunda ibraz edilenbelgelerin geçerli sayılmadığıveya geçerli bir\nbelge ibraz edilmediği taktirde fazla çıkan eşyanın hangi kıymeti kadar para cezası alınır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Eşyanın FOB kıymeti ile gümrük vergileri toplamı"
+            },
+            {
+                "key": "B",
+                "text": "eşyanın CIF kıymeti ile gümrük vergileri toplamı"
+            },
+            {
+                "key": "C",
+                "text": "Eşyanın FOB kıymeti"
+            },
+            {
+                "key": "D",
+                "text": "Eşyanın CIF kıymeti"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 49,
+        "question": "Kaçakçılıkla Mücadele Kanunu’nda tanımlanan suçların ve kabahatlerin, örgütün faaliyeti\nçerçevesinde işlenmesi halinde verilecek cezanın uygulanması ne şekilde olur ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Verilecek ceza aynı kalır"
+            },
+            {
+                "key": "B",
+                "text": "Verilecek ceza yarısı kadar arttırılır"
+            },
+            {
+                "key": "C",
+                "text": "Verilecek ceza 1 kat arttırılır"
+            },
+            {
+                "key": "D",
+                "text": "Verilecek ceza 2 kat arttırılır"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 50,
+        "question": "Satılması, sevk edilmesi ve ticareti yasaj ıkab bir eşya veya kargonun gönderilmesi ve taşınması\nhalinde sorumluluk kime aittir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Gönderene:"
+            },
+            {
+                "key": "B",
+                "text": "Yetki belgesi sahibine"
+            },
+            {
+                "key": "C",
+                "text": "Gönderene ve yetki belgesi sahibine"
+            },
+            {
+                "key": "D",
+                "text": "Gönderen sorumsuz, taşımayı yapan yetki belgesi sahibine"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 51,
+        "question": "Özel Kanunları gereğince, vergiden tamamen veya kısmen muaf olarak ithal olunan eşyayı ithal\namacı dışında kullanmak, satmak veya bilerek satın almak fiili aşağıdaki suçlardan hangisinin\nkapsamına girer?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Suç teşkil etmez"
+            },
+            {
+                "key": "B",
+                "text": "Sahtekarlık"
+            },
+            {
+                "key": "C",
+                "text": "Vergide usulsüzlük"
+            },
+            {
+                "key": "D",
+                "text": "Kaçakçılık"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 52,
+        "question": "Hangi kaçakçılık olayında taşınan araca da el konur?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Yolcu beraberınde yakalanan kaçak eşya varsa"
+            },
+            {
+                "key": "B",
+                "text": "Ceza Ehliyeti olmayanları kullanarak yapılan kaçakçılıkta"
+            },
+            {
+                "key": "C",
+                "text": "Kaçak eşya araçta yapılmış gizli bölmede yakalanmışsa"
+            },
+            {
+                "key": "D",
+                "text": "Yakalanan kaçak eşya elektronik eşya ise"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 53,
+        "question": "Gümrüğe verilen betannamenin tescilinden sonra beyan sahibinin talebi üzerine aşağıdakilerden\nhangisi düzeltilebilir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Markası"
+            },
+            {
+                "key": "B",
+                "text": "Nevi"
+            },
+            {
+                "key": "C",
+                "text": "Cinsi"
+            },
+            {
+                "key": "D",
+                "text": "Adet"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 54,
+        "question": "Aşağıdakilerden hangisi TIR karnesi kapsamında taşınmayacak ürünlerdendir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "İşlenmiş Tütün"
+            },
+            {
+                "key": "B",
+                "text": "Ham tütün"
+            },
+            {
+                "key": "C",
+                "text": "Şeker pancarı"
+            },
+            {
+                "key": "D",
+                "text": "Yaş sebze ve meyve"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 55,
+        "question": "Aşağıdakilerden hangisi dış ticarette ödeme şekli değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Akreditlli Ödeme"
+            },
+            {
+                "key": "B",
+                "text": "Vasaik Mukabili"
+            },
+            {
+                "key": "C",
+                "text": "Mal Mukabili Ödeme"
+            },
+            {
+                "key": "D",
+                "text": "Kiralama"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 56,
+        "question": "Malın taşımacıya teslimatından sonra ithalatçı tarafından mal bedelinin ödendiği ve sevk\nevraklarının banka tarafından ithalatçıya teslimatının yapıldığı ödeme çeşidi aşağıdakilerden\nhangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Mal mukabili ödeme"
+            },
+            {
+                "key": "B",
+                "text": "Vasaik mukabili ödeme"
+            },
+            {
+                "key": "C",
+                "text": "Akreditlli ödeme"
+            },
+            {
+                "key": "D",
+                "text": "Peşin ödeme"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 57,
+        "question": "Aşağıdaki bankalardan hangisinin akreditif işlemlerinde adının belirtilmesine gerek yoktur?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Ödeme Bankası"
+            },
+            {
+                "key": "B",
+                "text": "Kabul Bankası"
+            },
+            {
+                "key": "C",
+                "text": "İstira Bankası"
+            },
+            {
+                "key": "D",
+                "text": "Müşteri bankası"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 58,
+        "question": "Aşağıdakilernden hangisi ‘’nakdi kredi’’ değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Rotatif kredi"
+            },
+            {
+                "key": "B",
+                "text": "Akretitifler"
+            },
+            {
+                "key": "C",
+                "text": "İskonto/İştira kredileri:"
+            },
+            {
+                "key": "D",
+                "text": "Dövize endeksli krediler"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 59,
+        "question": "Aşağıdakilerden hangisi işletmenin kullandığı fiyat belirleme yöntemlerinden biri değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Maliyete yönelik yapılandırma"
+            },
+            {
+                "key": "B",
+                "text": "Psikolojik fiyatlandırma"
+            },
+            {
+                "key": "C",
+                "text": "Dönemsel fiyatlandırma"
+            },
+            {
+                "key": "D",
+                "text": "Rekabete Yönelik fiyatlandırma"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 60,
+        "question": "Cumhurbaşkanı, aşağıdaki Kanunlardan hangisi tekrar görüşülmek özere T.B.M.M ‘ne geri\ngönderemez?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Ceza Kanunu"
+            },
+            {
+                "key": "B",
+                "text": "Bütçe Kanunu"
+            },
+            {
+                "key": "C",
+                "text": "Af Kanunu"
+            },
+            {
+                "key": "D",
+                "text": "İş Kanunu"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 61,
+        "question": "Anayasamıza göre aşağıdakilerden hangisi siyasi hak ve ödevlerden değildir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Vergi ödemek"
+            },
+            {
+                "key": "B",
+                "text": "Devletleştirme"
+            },
+            {
+                "key": "C",
+                "text": "Dilekçe Hakkı"
+            },
+            {
+                "key": "D",
+                "text": "Seçme ve seçilme hakkı"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 62,
+        "question": "Aşağıdakileriden hankisi özel haklar arasında yer alır ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "mülkiyet hakkı"
+            },
+            {
+                "key": "B",
+                "text": "Dilekçe Hakkı"
+            },
+            {
+                "key": "C",
+                "text": "Seçme Hakkı"
+            },
+            {
+                "key": "D",
+                "text": "Eğitim Hakkı"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 63,
+        "question": "Sahipsiz Gayrimenkuller üzerinde aslen mülkiyet hakkının kazanılmasına ne ad verilir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Sahiplenme"
+            },
+            {
+                "key": "B",
+                "text": "İşgal"
+            },
+            {
+                "key": "C",
+                "text": "İntifa"
+            },
+            {
+                "key": "D",
+                "text": "Ahde vefa"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 64,
+        "question": "Uluslararası Kara Taşıma Sözleşmesi, ne zaman kurulmuş olur ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Tarafların taşıma konusundaki irade açıklamalarının tamamlanması ile birlikte"
+            },
+            {
+                "key": "B",
+                "text": "Malın taşınmak için teslimi ile birlikte"
+            },
+            {
+                "key": "C",
+                "text": "Malın antrepo veya depoya teslimi ile birlikte"
+            },
+            {
+                "key": "D",
+                "text": "Taşıtın malın teslim alıp haraketi ile birlikte"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 65,
+        "question": "Ulusal mevzuatımızda taşıma sözleşmeleri hangi kanunda düzenlenmiştir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Borçlar kanunu"
+            },
+            {
+                "key": "B",
+                "text": "Medeni Kanun"
+            },
+            {
+                "key": "C",
+                "text": "Ticaret Kanunu"
+            },
+            {
+                "key": "D",
+                "text": "CMR Konvansiyonu"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 66,
+        "question": "Tacirin tacir sıfatı sonra erse dahi, ticari defterlere ilişkin hangi yükümlülüğü devam eder?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Ticari defterleri 10 yıl saklama yükümlülüğü"
+            },
+            {
+                "key": "B",
+                "text": "Ticari defterleri 5 yıl saklama yükümlülüğü"
+            },
+            {
+                "key": "C",
+                "text": "Ticari defterleri 8 yıl devretmeme yükümlülüğü"
+            },
+            {
+                "key": "D",
+                "text": "Ticari defterleri 1 yıl takas etmeme yükümlülüğü"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 67,
+        "question": "İşçilerin çalışma yaşamında bir takım hukuki hükümlerle korunması gerektiğinibelirten ilke\naşağıdakilerden hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Ücretin Korunması İlkesi"
+            },
+            {
+                "key": "B",
+                "text": "İşçinin Korunması ilkesi"
+            },
+            {
+                "key": "C",
+                "text": "İşçi yararına yorum ilkesi"
+            },
+            {
+                "key": "D",
+                "text": "İşveren yararına yorum ilkesi"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 68,
+        "question": "Aşağıdakilerden hangisi ‘’geçerli fesih’’ nedeni olamaz?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "İşyerinin kapanması"
+            },
+            {
+                "key": "B",
+                "text": "İşçinin verimsiz çalışması"
+            },
+            {
+                "key": "C",
+                "text": "İşçinin yerine yeni bir işçinin işe alınamsı"
+            },
+            {
+                "key": "D",
+                "text": "İşverenin teknolojikdüzenlemeler nedeniyle daha az işçiye ihtiyac duyması"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 69,
+        "question": "İş Akdini istisna vekalet akitlerinden ayıran unsur nedir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "İşçinin işverene bağlı olması"
+            },
+            {
+                "key": "B",
+                "text": "Ücret"
+            },
+            {
+                "key": "C",
+                "text": "İş görme"
+            },
+            {
+                "key": "D",
+                "text": "Temsil İlişkisi"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 70,
+        "question": "Bilanço gününde işletmenin varlıklarını, alacaklarını ve borçlarını ayrıntılı olarak gösterme\nişlemine ne ad verilir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Mizan çıkarmak"
+            },
+            {
+                "key": "B",
+                "text": "Envanter"
+            },
+            {
+                "key": "C",
+                "text": "Açılış işlemleri"
+            },
+            {
+                "key": "D",
+                "text": "Tahsilat"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 71,
+        "question": "Damga vergisinde mükellef aşağıdakilerden hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Ödemeyi yapanlar"
+            },
+            {
+                "key": "B",
+                "text": "Kağıtları imza edenler"
+            },
+            {
+                "key": "C",
+                "text": "Kağıtları Düzenleyenler"
+            },
+            {
+                "key": "D",
+                "text": "Makbuz verenler"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 72,
+        "question": "Verginin ödenebilir aşamaya gelmesine ne ad verilir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Verginin Tarhı"
+            },
+            {
+                "key": "B",
+                "text": "Verginin tahsili"
+            },
+            {
+                "key": "C",
+                "text": "Verginin Tebliği"
+            },
+            {
+                "key": "D",
+                "text": "Verginin tahakkuku"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 73,
+        "question": "Aşağıdakilerden hangisi hesap hatalarından biri değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Vergi oranının yanlış uygulanması"
+            },
+            {
+                "key": "B",
+                "text": "Vergi matrahının eksik uygulanması"
+            },
+            {
+                "key": "C",
+                "text": "Verginin süresinden önce ödenmesi"
+            },
+            {
+                "key": "D",
+                "text": "Verginin mükerrrer hesaplanması"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 74,
+        "question": "Bilançonun pasif tarafında hangi muhasebe kalemi bulunur?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Yedek akçeler"
+            },
+            {
+                "key": "B",
+                "text": "Serbest menkul kıymetlerden olan hisse senetleri"
+            },
+            {
+                "key": "C",
+                "text": "Tahviller"
+            },
+            {
+                "key": "D",
+                "text": "Hazine bonosu"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 75,
+        "question": "Aşağıdakilerden hangisi sabit maliyet kalemi değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Amortisman"
+            },
+            {
+                "key": "B",
+                "text": "Sigorta"
+            },
+            {
+                "key": "C",
+                "text": "Elektrik Faturası"
+            },
+            {
+                "key": "D",
+                "text": "Kira"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 76,
+        "question": "Karayolu taşımacılığında kullanılan araç giderlerinden hangisi bir sabit maliyet kalemi değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Kasko Sigortası"
+            },
+            {
+                "key": "B",
+                "text": "Yeşil Kart Sigortası"
+            },
+            {
+                "key": "C",
+                "text": "Otoyol ücreti"
+            },
+            {
+                "key": "D",
+                "text": "Amortisman"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 77,
+        "question": "Aşağıdakilernden hangisi ulaştırma maliyet bileşenlerinden birisidir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Bilişim Sistemi giderleri"
+            },
+            {
+                "key": "B",
+                "text": "Depolama Giderleri"
+            },
+            {
+                "key": "C",
+                "text": "Hasar maliyetleri"
+            },
+            {
+                "key": "D",
+                "text": "Hepsi"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 78,
+        "question": "Aşağıdakilerden hangisi amme alacağına karşılık teminat olarak kabul edilmez?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Para"
+            },
+            {
+                "key": "B",
+                "text": "Teminat Mektupları"
+            },
+            {
+                "key": "C",
+                "text": "tahvil ve hazine bonoları"
+            },
+            {
+                "key": "D",
+                "text": "Adi kefalet"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 79,
+        "question": "Sahte ve Muhteviyatı itibariyle yanıltıcı belge düzenlemek hangi vergi suçu kapsamında\nbulunmaktadır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Kaçakçılık Cezası"
+            },
+            {
+                "key": "B",
+                "text": "Kusur Cezası"
+            },
+            {
+                "key": "C",
+                "text": "1. Derecede usulsüzlük cezası"
+            },
+            {
+                "key": "D",
+                "text": "2. Derecede usulsüzlük cezası"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 80,
+        "question": "Müşteri İlişkileri Yönetiminin en öndemli amacı aşağıdakilerden hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Karlılık sağlamak"
+            },
+            {
+                "key": "B",
+                "text": "Sadakat yaratmak"
+            },
+            {
+                "key": "C",
+                "text": "Müşteri Sayısını arttırmak"
+            },
+            {
+                "key": "D",
+                "text": "Ürün çeşitliliğini arttırmak"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 81,
+        "question": "Aşağıdakilerden hangisi ‘’ Müşteri İlişkileri Yönetimi’’ (CMR) evrelerinden değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Müşteri seçimi"
+            },
+            {
+                "key": "B",
+                "text": "Müşteri Edinme"
+            },
+            {
+                "key": "C",
+                "text": "Müşteri Ömrü"
+            },
+            {
+                "key": "D",
+                "text": "Müşteri Derinleştirme"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 82,
+        "question": "Aşağıdakilerden hangisi sadakat yaratmak için müşterinin firmadan beklentileri arasında değildir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Karşılık görebilme"
+            },
+            {
+                "key": "B",
+                "text": "Tutarlılık"
+            },
+            {
+                "key": "C",
+                "text": "Ürün çeşitliliği"
+            },
+            {
+                "key": "D",
+                "text": "Güven vermesi"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 83,
+        "question": "Müşteri ilişkileri yönetimine göre aşağıdakilerden hangisi kalite aşamalarından birisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Tanımlama Aşaması"
+            },
+            {
+                "key": "B",
+                "text": "Gelişme Aşaması"
+            },
+            {
+                "key": "C",
+                "text": "Üst Seviye Aşaması"
+            },
+            {
+                "key": "D",
+                "text": "Hepsi"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 84,
+        "question": "Aşağıdakilerden hangisi yönetim teorisinin gelişimini etkileryen faktörlerden biri değildir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Sosyal güçler"
+            },
+            {
+                "key": "B",
+                "text": "Teknolojik güçler"
+            },
+            {
+                "key": "C",
+                "text": "Ekonomik güçler"
+            },
+            {
+                "key": "D",
+                "text": "Standartlaşmaya yönelik güçler"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 85,
+        "question": "Aşağıdakilernden hangisi finans yöneticisinin işletmenin piyasa değerini etkileyen kararlarından\ndeğildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Yatırım kararları"
+            },
+            {
+                "key": "B",
+                "text": "Finansman kararları"
+            },
+            {
+                "key": "C",
+                "text": "İşletmenin Hukuki yapısı"
+            },
+            {
+                "key": "D",
+                "text": "Kar dağıtım kararları"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 86,
+        "question": "Müşterilerle iletişim ve bilgilendirme sürecini gerçekleştiren fonksiyon aşağıdakilerden hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Tutundurma"
+            },
+            {
+                "key": "B",
+                "text": "Dağıtım"
+            },
+            {
+                "key": "C",
+                "text": "Fiyatlandırma"
+            },
+            {
+                "key": "D",
+                "text": "Lojistik"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 87,
+        "question": "Aşağıdakilerden Hangisi pazarlama anlayışında odak noktasıdır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Mamuller"
+            },
+            {
+                "key": "B",
+                "text": "Tüketici ihtiyacları"
+            },
+            {
+                "key": "C",
+                "text": "Satış hacmi yoluyla karlar"
+            },
+            {
+                "key": "D",
+                "text": "Tüketici tatmini yoluyla karlar"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 88,
+        "question": "Pazarlama yönteminin temel işlevi aşağıdakilerden hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Talep yaratmak"
+            },
+            {
+                "key": "B",
+                "text": "Malların pazara ulaşmasını sağlamak"
+            },
+            {
+                "key": "C",
+                "text": "Satış sonrası hizmet sağlamak"
+            },
+            {
+                "key": "D",
+                "text": "Tüketicilerin ihtiyaçlarını karşılamak"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 89,
+        "question": "Bir işletmenin tüm iletişim etkinliklerinin krodine sürecine ne ad verilir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Reklam"
+            },
+            {
+                "key": "B",
+                "text": "Danışmanlık"
+            },
+            {
+                "key": "C",
+                "text": "Satış Teşviki"
+            },
+            {
+                "key": "D",
+                "text": "Bütünleşik Pazarlama İletişimi"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 90,
+        "question": "Bir ürünün pazarda çok iyi tanınır duruma geldiği ve satışların artmayı sürdürdüğü aşama\naşağıdakilerden hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Gelişme aşaması"
+            },
+            {
+                "key": "B",
+                "text": "Büyüme aşaması"
+            },
+            {
+                "key": "C",
+                "text": "Pazara giriş aşaması"
+            },
+            {
+                "key": "D",
+                "text": "Olgunluk aşaması"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 91,
+        "question": "Aşağıdakilerden hangisi pazara girişte Avrupa Birliği’nin öngördüğü temel kriterlerden birisi\ndeğildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Mesleki saygınlık"
+            },
+            {
+                "key": "B",
+                "text": "Bir taşımacılık derneğine üye olma zorunluluğu"
+            },
+            {
+                "key": "C",
+                "text": "Mali Yeterlilik"
+            },
+            {
+                "key": "D",
+                "text": "Mesleki yeterlilik"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 92,
+        "question": "Aşağıdakilerden hangisi insan kaynakları yönetiminin fonksiyonları arasında değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Firmada iş gücü açığının tespiti"
+            },
+            {
+                "key": "B",
+                "text": "İşe alınan personelin oryantasyon eğitimi"
+            },
+            {
+                "key": "C",
+                "text": "Çalışan personelin iç eğitimi"
+            },
+            {
+                "key": "D",
+                "text": "Firmanın gayrimenkul yatırım kararları"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 93,
+        "question": "Aşağıdakilerden hangisi ; çalışanların belirli bir dönemdeki fiili başarı durumlarını ve geleceğe\nyönelik gelişme potansiyellerini belirleyen çalışmalarıi tanımlamaktadır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Motivasyon"
+            },
+            {
+                "key": "B",
+                "text": "Eşgüdümleme"
+            },
+            {
+                "key": "C",
+                "text": "Performans değerleme"
+            },
+            {
+                "key": "D",
+                "text": "Kariyer Planlama"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 94,
+        "question": "Aşağıdakilerden hangisi meslik ile iş kavramları arasındaki farklardan biri değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Meslek eğitim gerektirirken iş eğitim gerektirmez"
+            },
+            {
+                "key": "B",
+                "text": "Mesleği olanharkesin işi de olur"
+            },
+            {
+                "key": "C",
+                "text": "İş, sadece belli bir alanda yapılır"
+            },
+            {
+                "key": "D",
+                "text": "İş, benzer etkinlikler grubudur."
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 95,
+        "question": "Aşağıdaki kişisel faktörlerden hangisi yetkinliklerin tanımında yer almaktadır ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Fiziksel özellikler"
+            },
+            {
+                "key": "B",
+                "text": "Beceri"
+            },
+            {
+                "key": "C",
+                "text": "Eğitim"
+            },
+            {
+                "key": "D",
+                "text": "Yeterlilik"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 96,
+        "question": "Aşağıdakilerden hangisi işletmenin iş gücünü arzını belirlemek amacıyla kullanılan araçlar arasında\nyer almaz?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Organizasyon şemaları"
+            },
+            {
+                "key": "B",
+                "text": "Hareket zaman etütleri"
+            },
+            {
+                "key": "C",
+                "text": "İşgücü envanteri"
+            },
+            {
+                "key": "D",
+                "text": "Personel devir oranı"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 97,
+        "question": "Aşağıdakilerden hangisi meslek seçimini belirleyen unsurlardan biri değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Toplumsal değerler"
+            },
+            {
+                "key": "B",
+                "text": "Çevre ve aile"
+            },
+            {
+                "key": "C",
+                "text": "Hukuk kuralları"
+            },
+            {
+                "key": "D",
+                "text": "Eğitim"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 98,
+        "question": "Aşağıdakilerden hangisi Toplam Kalite Yönetimi’nin iletmelerde uygulama konma aşamaları\narasında yer almaz ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Geleneksel Aşama"
+            },
+            {
+                "key": "B",
+                "text": "Müşteri Bilinci Aşaması"
+            },
+            {
+                "key": "C",
+                "text": "Süreç İyileştirme Aşaması"
+            },
+            {
+                "key": "D",
+                "text": "Takım Stratejisi Aşaması"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 99,
+        "question": "Toplam Kalite Yönetimine göre aşağıdakilerden hangisi görülemeyen/ölçülemeyen sorunlardan\nbiri değildir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Müşteri tatminsizliği"
+            },
+            {
+                "key": "B",
+                "text": "Pazar kaybı"
+            },
+            {
+                "key": "C",
+                "text": "İmaj zedelenmesi"
+            },
+            {
+                "key": "D",
+                "text": "Üretim hataları"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 100,
+        "question": "Aşağıdakilerden hangisi organizasyonun yönetim sürecine sağlamış olduğu katkılardan biri\ndeğildir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "İşbirliğini kolaylaştırması"
+            },
+            {
+                "key": "B",
+                "text": "Danışman ihtiyacını ortadan kaldırması"
+            },
+            {
+                "key": "C",
+                "text": "Karar ortamının bir yapıya kavuşturulması"
+            },
+            {
+                "key": "D",
+                "text": "Ast-üst ilişkileri belirlenerek hiyerarşik yapının oluşması."
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 101,
+        "question": "Aynı firmada benzer işler yapan çalışanlardan oluşan, belirli aralıklarla gönüllü olarak toplanacak\nkendi işleri ile ilglili ptoblemleri saptayan ve çözen küçük çalışma grubuna ne denir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Kalite yönetimi"
+            },
+            {
+                "key": "B",
+                "text": "Kalite Çemberi"
+            },
+            {
+                "key": "C",
+                "text": "Çalışma takımları"
+            },
+            {
+                "key": "D",
+                "text": "Firma destek ekipler"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 102,
+        "question": "Aşağıdakilerden hangisi kalite kontrol çemberlerinin uygulamasında bulunan aşamalardan\ndeğildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Planlama"
+            },
+            {
+                "key": "B",
+                "text": "Kontrol"
+            },
+            {
+                "key": "C",
+                "text": "Uygulama"
+            },
+            {
+                "key": "D",
+                "text": "Test etmek"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 103,
+        "question": "Parça başı olarak bilinen ücret ödeme sistemi aşağıdakilerden hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Akort ücret"
+            },
+            {
+                "key": "B",
+                "text": "Yüzde usulü ücret"
+            },
+            {
+                "key": "C",
+                "text": "Götürü Usulü Ücret"
+            },
+            {
+                "key": "D",
+                "text": "Zaan usulü ücret"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 104,
+        "question": "Aşağıdakilerden hangisi problem çözme süreçlerinden birisi değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "İhtiyaçları sınıflandırma"
+            },
+            {
+                "key": "B",
+                "text": "Muhtemel çözümler geliştirme"
+            },
+            {
+                "key": "C",
+                "text": "Çözümleri Değerlendirme"
+            },
+            {
+                "key": "D",
+                "text": "Sorunu tanımlama"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 105,
+        "question": "Aşağıdakilerden hangisi iletişim teknolojilerinin getirilerinden değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Maliyet avantajları"
+            },
+            {
+                "key": "B",
+                "text": "İş sürekliliği"
+            },
+            {
+                "key": "C",
+                "text": "Verimlilik,karlılık"
+            },
+            {
+                "key": "D",
+                "text": "Koordinasyon hataları"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 106,
+        "question": "Aşağıdakilerden hangisi araç takip sisteminin türlerinden biri değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Kameralar"
+            },
+            {
+                "key": "B",
+                "text": "GSM tabanlı sistemler"
+            },
+            {
+                "key": "C",
+                "text": "Uydu tabanlı sistemler"
+            },
+            {
+                "key": "D",
+                "text": "Kara kutu sistemler"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 107,
+        "question": "Aracın seyahati tamamlandıktan sonra içindeki hafızaya kaydedilen bilgilere ulaşılan araç takip\nsistemi hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "GSM tabanlı sistemler"
+            },
+            {
+                "key": "B",
+                "text": "Uydu tabanlı sistemler"
+            },
+            {
+                "key": "C",
+                "text": "Kara kutu sistemler"
+            },
+            {
+                "key": "D",
+                "text": "Hibrit sistemler"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 108,
+        "question": "Aşağıdakilerden hangisi; tedarikçiler ile şirket arasında gerçekleşen rota seçimi, taşıma,araç-\nkargo takibi vb. Lojistik faaliyetlerdir,ifadesinin karşılığıdır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Tersine lojistik"
+            },
+            {
+                "key": "B",
+                "text": "Giden lojistik"
+            },
+            {
+                "key": "C",
+                "text": "Gelen lojistik"
+            },
+            {
+                "key": "D",
+                "text": "Üçüncü taraf lojistik"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 109,
+        "question": "Aşağıdakilerden hangisi depolama operasyonda kullanılan araçlardan biri değildir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Forklift"
+            },
+            {
+                "key": "B",
+                "text": "Palet"
+            },
+            {
+                "key": "C",
+                "text": "Raflar"
+            },
+            {
+                "key": "D",
+                "text": "Römork"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 110,
+        "question": "Aşağıdakilerden hangisi depolamadaki ‘’biyolojik risk’’ faktörlerinden biri değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Bakterile, virüsler ve mikroplar"
+            },
+            {
+                "key": "B",
+                "text": "Kemirgenler"
+            },
+            {
+                "key": "C",
+                "text": "Mikro organizmalar"
+            },
+            {
+                "key": "D",
+                "text": "Aşınma ve sürtünme"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 111,
+        "question": "Sınır kapıları ile bu kapılardan çıkış yapılan ülkke eşleşmesinde aşağıdakilerden hangisi yanlıştır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Artvin/Sarp sınır kapısı - Gürcistan"
+            },
+            {
+                "key": "B",
+                "text": "Edirne/Dereköy sınır kapısı – Bulgaristan"
+            },
+            {
+                "key": "C",
+                "text": "Kilis/Öncüpınar sınır kapısı - Suriye"
+            },
+            {
+                "key": "D",
+                "text": "Edirne/Hamzabeyli sınır kapısı – Bulgaristan"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 112,
+        "question": "Sınır kapısının bulunduğu il ve bağlandığı ülke eşleştirmesinde aşağıdakilerden hangisi doğrudur?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Sarp sınır kapısı – Ardahan – Gürcistan"
+            },
+            {
+                "key": "B",
+                "text": "Gürbulak sınır kapısı – Şırnak – İran"
+            },
+            {
+                "key": "C",
+                "text": "Dereköy sınır kapısı – Kırklareli – Bulgaristan"
+            },
+            {
+                "key": "D",
+                "text": "Hamzabeyli sınır kapısı – Edirne – Yunanistan"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 113,
+        "question": "Aşağıda verilen sınır kapıları ile bu kapılardan çıkış yapılan ülke eşleşmesinde hangisi doğrudur?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Kapıkule / İRAN"
+            },
+            {
+                "key": "B",
+                "text": "Hamzabeyli / Bulgaristan"
+            },
+            {
+                "key": "C",
+                "text": "İpsala / Gürcistan"
+            },
+            {
+                "key": "D",
+                "text": "Dereköy / Gürcistan"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 114,
+        "question": "Yunanistan’a yük götürecek taşıtlar, hangi çıkış kapısından çıkar ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Habur"
+            },
+            {
+                "key": "B",
+                "text": "Cilvegözü"
+            },
+            {
+                "key": "C",
+                "text": "İpsala ve Pazarkule"
+            },
+            {
+                "key": "D",
+                "text": "Sarp"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 115,
+        "question": "Kombine taşımacılık konşimentosu aşağıdakilerden hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "FBL"
+            },
+            {
+                "key": "B",
+                "text": "FOB"
+            },
+            {
+                "key": "C",
+                "text": "FWR"
+            },
+            {
+                "key": "D",
+                "text": "FCR"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 116,
+        "question": "Karayolu Taşıma Yönetmeliğine göre; aşağıdakilerden hangisi ,’’ yolcu ve eşya bindirme, indirme,\nyükleme,boşaltma noktalarının taşıtın kayıtlı olduğu ülkenin dıiındaki ülkerler arasında yapılan\ntaşımaları’’ ifade eder?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Üçüncü ülke taşıması"
+            },
+            {
+                "key": "B",
+                "text": "Transit taşıma"
+            },
+            {
+                "key": "C",
+                "text": "İkili taşıma"
+            },
+            {
+                "key": "D",
+                "text": "Uluslararası taşıma"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 117,
+        "question": "Kullanım şekline göre aşağıdakilerden hangisi geçiş belgesi türü değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Transit Geçiş Belgesi"
+            },
+            {
+                "key": "B",
+                "text": "İkili Geçiş Belgesi"
+            },
+            {
+                "key": "C",
+                "text": "Üçüncü Ülke Geçiş Belgesi"
+            },
+            {
+                "key": "D",
+                "text": "Konvansiyonel Geçiş Belgesi"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 118,
+        "question": "Maliyet avantajı, aşağıdaki faaliyetlerden hangisinde daha fazla bulunmaktadır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Taşımacılık"
+            },
+            {
+                "key": "B",
+                "text": "İletişim"
+            },
+            {
+                "key": "C",
+                "text": "Sanayi"
+            },
+            {
+                "key": "D",
+                "text": "Enerji"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 119,
+        "question": "Karayolu taşımacılığının dezavantajlarından biri aşağıdakilerden hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Hızlı servis olanağı Sağlar"
+            },
+            {
+                "key": "B",
+                "text": "Çok farklı hacımlarde taşımacılık yapabilme"
+            },
+            {
+                "key": "C",
+                "text": "Taşıma hızını arttırma ve azaltma olanağının bulunması"
+            },
+            {
+                "key": "D",
+                "text": "Ağırlık Sınırlamaları"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 120,
+        "question": "Ulaştırma Banakları Avrupa Konferansı, Hangi uluslararası organizasyon bünyesinde işlevini\nsürdürmektedir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "IRU(Uluslararası Karayolu Taşımacılığı Birliği)"
+            },
+            {
+                "key": "B",
+                "text": "OECD(Ekonomik İşbirliği ve Kalkınma Teşkilatı)"
+            },
+            {
+                "key": "C",
+                "text": "Avrupa konseyi"
+            },
+            {
+                "key": "D",
+                "text": "NATO (Kuzey Atlantik Savunma Paktı)"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 121,
+        "question": "Aşağıdakilerden hangisi sıvı veya gaz haldeki yüklerin tanşınmasında kullanılan konteyner\nçeşididir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Platform Konteyner"
+            },
+            {
+                "key": "B",
+                "text": "Soğutmalı Konteyner"
+            },
+            {
+                "key": "C",
+                "text": "Tank Konteyner"
+            },
+            {
+                "key": "D",
+                "text": "Dökme yük Konteyner"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 122,
+        "question": "Hemlich manevrasının doğru tanımı hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Bir turnike yöntemidir"
+            },
+            {
+                "key": "B",
+                "text": "Tam hava yolu tıkanıklında karnına bası uygulaması işlemi"
+            },
+            {
+                "key": "C",
+                "text": "Kazazedeyi araçtan çıkarma tekniği"
+            },
+            {
+                "key": "D",
+                "text": "Kırıklarda atelleme yöntemidir"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 123,
+        "question": "Yaralının değerlendirilmesinde yapılacak ilk işlem aşağıdakilernden hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Solunumu değerlendirmek"
+            },
+            {
+                "key": "B",
+                "text": "Dolaşımı değerlendirmek"
+            },
+            {
+                "key": "C",
+                "text": "Yaralının ağırlık düzeyini belirlemek"
+            },
+            {
+                "key": "D",
+                "text": "Bilinç durumunu değerlendirmek"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 124,
+        "question": "Aşağıdakilerden hangisi Şok belirtisi değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Ciltte soğukluk,solukluk ve nemlilik"
+            },
+            {
+                "key": "B",
+                "text": "Solunum olmaması"
+            },
+            {
+                "key": "C",
+                "text": "Solunum güçlüğü"
+            },
+            {
+                "key": "D",
+                "text": "Uyuklama, huzursuzluk"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 125,
+        "question": "Aşağıdakilerden hangisi şok belirtisi arasındadır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Zihinsel aktivitenin artması"
+            },
+            {
+                "key": "B",
+                "text": "Cildin Soğuk ve nemli olması"
+            },
+            {
+                "key": "C",
+                "text": "Vücut sıcaklığının hızla yükselmesi"
+            },
+            {
+                "key": "D",
+                "text": "Dilin gevşeyerek geriye doğru toplanması"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 126,
+        "question": "Aşağıdakilerden hangisi, delici göğüs yaralamalarında kazazedeye yapılan doğru bir ilk yardım\nuygulamasıdır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Batan cismin çıkarılması"
+            },
+            {
+                "key": "B",
+                "text": "Ağızdan ılık içecekler verilmesi"
+            },
+            {
+                "key": "C",
+                "text": "Bilinci açık ise yarı oturur duruma getirilmesi"
+            },
+            {
+                "key": "D",
+                "text": "Ayakların yüksekte tutulup sırtüstü yatırılması"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 127,
+        "question": "Beyin İnsan vücudundaki hangi sistemin bir parçasıdır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Dolaşım sisteminin"
+            },
+            {
+                "key": "B",
+                "text": "Sindirim Sisteminin"
+            },
+            {
+                "key": "C",
+                "text": "Haraket sisteminin"
+            },
+            {
+                "key": "D",
+                "text": "Sinir sisteminin"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 128,
+        "question": "Aşağıdakilerden hangisi kesik yaralanmalarında ilk yardım önemlidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Yara kenarını birbirine yapıstırarak sarmak"
+            },
+            {
+                "key": "B",
+                "text": "Yara üzerini tentürdiyotlu pamukla sarmak"
+            },
+            {
+                "key": "C",
+                "text": "Kesilen bölgenin kalp seviyesinin altında kalmasını sağlamak"
+            },
+            {
+                "key": "D",
+                "text": "Bir şey yapmadan sağlık kuruluşlarına sevk etmek"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 129,
+        "question": "Kafasına darbe alan yaralıda aşağıdaki hallerden hangisi görülür?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Uyku hali"
+            },
+            {
+                "key": "B",
+                "text": "Konuşma bozukluğu"
+            },
+            {
+                "key": "C",
+                "text": "Bulantı, kusma"
+            },
+            {
+                "key": "D",
+                "text": "Hepsi"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 130,
+        "question": "Yaralanmalarda kanayan bölgeye verilecek pozisyon aşağıdakilerden hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Baş seviyesinin altında kalması sağlanır"
+            },
+            {
+                "key": "B",
+                "text": "Kalp ile aynı seviyede olması sağlanır"
+            },
+            {
+                "key": "C",
+                "text": "Kalp seviyesinin altında kalması sağlanır"
+            },
+            {
+                "key": "D",
+                "text": "Kalp seviyesinin üstünde kalması sağlanır"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 131,
+        "question": "Kalp durması halinde aşağıdakilerden hangisi ilk önce etkilenir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Kan dolaşımı"
+            },
+            {
+                "key": "B",
+                "text": "Soluk alma"
+            },
+            {
+                "key": "C",
+                "text": "Soluk verme"
+            },
+            {
+                "key": "D",
+                "text": "Sindirim sistemi"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 132,
+        "question": "Eklem yüzeyinin bir anlık ayrılmasına ne denir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Burkulma"
+            },
+            {
+                "key": "B",
+                "text": "Çıkık"
+            },
+            {
+                "key": "C",
+                "text": "Kırık"
+            },
+            {
+                "key": "D",
+                "text": "Kapalı kırık"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 133,
+        "question": "Aşağıdakilerden hangisi temel ilk yardım uygulaması değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Koruma"
+            },
+            {
+                "key": "B",
+                "text": "Kurtarma"
+            },
+            {
+                "key": "C",
+                "text": "Bildirme"
+            },
+            {
+                "key": "D",
+                "text": "Tedavi etme"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 134,
+        "question": "I. Derece yanıkta ne olmaz?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Su kabarcığı"
+            },
+            {
+                "key": "B",
+                "text": "Ağrı"
+            },
+            {
+                "key": "C",
+                "text": "Ödem"
+            },
+            {
+                "key": "D",
+                "text": "Kızarıklık"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 135,
+        "question": "Bir tehlikeli madde taşıması için ‘’onaylanmış bir ambalaj’’ aşağıdakilerden hangisi ile anlaşılır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Herhagi bir işaret bulunmamaktadır"
+            },
+            {
+                "key": "B",
+                "text": "ADR/RID işaretinden"
+            },
+            {
+                "key": "C",
+                "text": "UN sembolunden"
+            },
+            {
+                "key": "D",
+                "text": "Bir kurum tarafından verilen uygunluk belgesınden"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 136,
+        "question": "Uluslararası Karayolu Taşımacılığı yapan taşıtlarda çalışan personelin çalışma sürelerine ilişkin\nAvrupa Anlaşması (AETR)’na göre ; kontrol aygıtında kullanılan kayıt kartlarının saklanma süresi ne\nkadardır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Sadece araçta 1 ay"
+            },
+            {
+                "key": "B",
+                "text": "Araçta 1 ay, işletmede 1 yıl"
+            },
+            {
+                "key": "C",
+                "text": "Araçta 2 ay, işletmede 1 yıl"
+            },
+            {
+                "key": "D",
+                "text": "Araçta 1 ay, işetmede 2 yıl"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 137,
+        "question": "Ağır hasarlı veya ölümlü trafik kazalarına karışan sürücülerin, aşağıdakilerden hangisi yapması\nyasaktır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Olayı en kısa zamanda yetkililere bildirmesi"
+            },
+            {
+                "key": "B",
+                "text": "İstandiği taktirde gerekli bilgi ve belgeleri karşı tarafa vermesi"
+            },
+            {
+                "key": "C",
+                "text": "Kazaya karışan aracı taşıt yolu dışına çekmesi"
+            },
+            {
+                "key": "D",
+                "text": "Trafik güvenliği için ışiıklı yansıtıcı cihazlar koyması"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 138,
+        "question": "Bir aracın teknik olarak güvenle taşıyabileceği en çok yük veya yolcu sayısına ne denir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Yüklü ağırlık"
+            },
+            {
+                "key": "B",
+                "text": "Gabari"
+            },
+            {
+                "key": "C",
+                "text": "Taşıma sınırı"
+            },
+            {
+                "key": "D",
+                "text": "dingil ağırlığı"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 139,
+        "question": "İşaretleme reflektörü bulundurma ile ilgili olarak aşağıdakilerden hangisi doğrudur?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Motosiklet ve motorlu bisiklet hariç bütün motorlu araçlarda iki adet"
+            },
+            {
+                "key": "B",
+                "text": "Motorlu ve Motorsuz bütün araçlarda üç adet"
+            },
+            {
+                "key": "C",
+                "text": "Sadece şehirlerarası yolcu taşıyan araçlarda iki adet"
+            },
+            {
+                "key": "D",
+                "text": "Sadece şehirler arası eşya taşıyan araçlarda üç adet"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 140,
+        "question": "Aşağıdaki davranışlardan hangisi trafiğin akışını olumsuz etkiler?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Gidişe ayrılan yolda sürekli en soldaki şeridi işgal etmek"
+            },
+            {
+                "key": "B",
+                "text": "Çok şeritli yollarda hızın gerektirdiği şeritten ilerlemek"
+            },
+            {
+                "key": "C",
+                "text": "Gidiş yönüne göre en sağdaki şeritten seyretmek"
+            },
+            {
+                "key": "D",
+                "text": "Girilecek şeritteki aracın geçmesini beklemek"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 141,
+        "question": "Aşağıdakilerden hangisi , sürücüler için trafik suçudur?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Gidişe ayrılan sağdaki şeritten seyretmek"
+            },
+            {
+                "key": "B",
+                "text": "Seyir halindeyken cep telefonu ile konuşmak"
+            },
+            {
+                "key": "C",
+                "text": "Takip mesafesine uymak"
+            },
+            {
+                "key": "D",
+                "text": "Kırmızı ışıkta durmak"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 142,
+        "question": "Sürücülerin aşağıdaki davranışlardan hangisi yapmaları yanlıştır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Ani yön değiştirerek yayaları şaşırtmaları."
+            },
+            {
+                "key": "B",
+                "text": "Yol ortasında yolcu indirip bindirmemeleri"
+            },
+            {
+                "key": "C",
+                "text": "Yol boş olsa da iki şeridi birden kullanmamaları"
+            },
+            {
+                "key": "D",
+                "text": "Yağışlı havalarda normal hızın altında seyretmeleri"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 143,
+        "question": "Kontrolsüz kavşaklarda aşağıdakilerden hangisinin yapılması doğrudur?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Şerit değiştirilmesi"
+            },
+            {
+                "key": "B",
+                "text": "Öndeki aracın geçilmesi"
+            },
+            {
+                "key": "C",
+                "text": "Aracın hızının arttırılması"
+            },
+            {
+                "key": "D",
+                "text": "Geçiş hakkı kurallarına uyulması"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 144,
+        "question": "Geçilmekte olan araç sürücüsü aşağıdaki davranışlardan hangisini yapmalıdır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Hızını arttırmalıdır"
+            },
+            {
+                "key": "B",
+                "text": "Bulunduğu şeridi izlemelidir"
+            },
+            {
+                "key": "C",
+                "text": "Önündeki aracı geçmeye çalışmalıdır"
+            },
+            {
+                "key": "D",
+                "text": "Dönüş lambalarıyla geç işareti vermelidir"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 145,
+        "question": "Kentlerimizin en büyük sorunlarından biri olan trafik sıkışıklında trafiği açmayacağını bile bile\nsürekli korna çalarakçevrede bulunanların gürültü kirliliğine maruz bırakılması hali, trafikte hangi\ntemel değere sahip olunmadığını gösterir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Öfke"
+            },
+            {
+                "key": "B",
+                "text": "Sabır"
+            },
+            {
+                "key": "C",
+                "text": "İnatlaşma"
+            },
+            {
+                "key": "D",
+                "text": "Aşırı tepki"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 146,
+        "question": "Aşağıdakilerden hangisi Ahlak felsefesinin temel kavramlarından biri değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Vicdan"
+            },
+            {
+                "key": "B",
+                "text": "İyi/Kötü Kavramları"
+            },
+            {
+                "key": "C",
+                "text": "Ahlaki bildiri"
+            },
+            {
+                "key": "D",
+                "text": "Erdem Fazilet"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 147,
+        "question": "Aşağıdakilerden hangisi, öfkeyi başarılı bir şekilde yönetmekiçin önerilen davranışlardan biri\ndeğildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "İletişim becerilerinin geliştirilmesi"
+            },
+            {
+                "key": "B",
+                "text": "Alaycı ve aşağılayıcı mizaha başvurulması"
+            },
+            {
+                "key": "C",
+                "text": "Düşünme tarzının yeniden yapılandırılması"
+            },
+            {
+                "key": "D",
+                "text": "Nefes egzersizlerinin öğrenilip uygulanması"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 148,
+        "question": "Karayolu Taşıma Yönetmeliği’ne göre; tarifeli yolcu taşımaları ile ilgili olarak aşağıdakilerden\nhangisi doğrudur?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Belli bir zaman tarifesi yoktur"
+            },
+            {
+                "key": "B",
+                "text": "Yolcunun durumuna göre sefer düzenlenir"
+            },
+            {
+                "key": "C",
+                "text": "Belli bir ücret tarifesi yoktur"
+            },
+            {
+                "key": "D",
+                "text": "Bilet kesilmesi zorunludur"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 149,
+        "question": "Seyahat Acenteleri ve Seyahat Acenteleri Birliği Kanununa göre karayolu ile turizm taşımacılığı\nyapacak araçlar kaç yaşından büyük olamazlar?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "7"
+            },
+            {
+                "key": "B",
+                "text": "8"
+            },
+            {
+                "key": "C",
+                "text": "10"
+            },
+            {
+                "key": "D",
+                "text": "12"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 150,
+        "question": "Turizm taşımacılığında ‘’Paket Tur’’ un anlamı aşağıdakilerden hangiside doğru olarak verilmiştir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Sadece 24 saatten uzun bir süreyi kapsayan sözleşmeyi ifade eder"
+            },
+            {
+                "key": "B",
+                "text": "24 saatten kısa bir süreyi kapsayan veya gecelik konaklamayı içeren sözleşmeleri ifade eder"
+            },
+            {
+                "key": "C",
+                "text": "24 saatten uzun bir süreyi kapsayan veya gecelik konaklamayı içeren sözleşmeleri ifade eder"
+            },
+            {
+                "key": "D",
+                "text": "her şeyin dahil olduğu fiyatla satıldığı veya satımının vaat edildiği ve hizmetin 24 saatten uzun bir\nsüreyi kapsadığı veya gecelik konaklamayı içerdiği sözleşmelere Paket Tur denir"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 151,
+        "question": "Sınır kapıları işe bu kapılardan çıkış yapılan ülke eşleşmelerinden hangisi yanlıştır?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Artvin /Sarp Sınır kapısı – Gürcistan"
+            },
+            {
+                "key": "B",
+                "text": "Van / Esendere sınır kapısı – İran"
+            },
+            {
+                "key": "C",
+                "text": "Kilis / Öncüpınar sınır kapısı – Suriye"
+            },
+            {
+                "key": "D",
+                "text": "Edirne / Hamzabeyli sınır kapısı – Bulgaristan"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 152,
+        "question": "Aşağıdakilerden hangisi Türkiye ve Avrupa Briliği’nde acil telefon numarası olarak kullanılır ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "112"
+            },
+            {
+                "key": "B",
+                "text": "110"
+            },
+            {
+                "key": "C",
+                "text": "122"
+            },
+            {
+                "key": "D",
+                "text": "182"
+            }
+        ],
+        "correct_answer": "A"
+    },
+    {
+        "id": 153,
+        "question": "Aşağıdaki sorulardan hangisi kendini geliştirme çabası içinde olan birisi için gereksizdir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Ne yapmalı?"
+            },
+            {
+                "key": "B",
+                "text": "Neyi değiştirmeli?"
+            },
+            {
+                "key": "C",
+                "text": "Çabalamak neye yarar?"
+            },
+            {
+                "key": "D",
+                "text": "Neye ulaşmalı ?"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 154,
+        "question": "Aşağıdakilerden hangisi , mesleki etik ilkesi değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Yasallık"
+            },
+            {
+                "key": "B",
+                "text": "Mesleğe Bağlılık"
+            },
+            {
+                "key": "C",
+                "text": "Yetersizlik"
+            },
+            {
+                "key": "D",
+                "text": "Güvenilirlik"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 155,
+        "question": "Anayasamıza göre aşağıda belirtilenlerden hangisi siyasi hak ve ödevlerden değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Vergi ödemek"
+            },
+            {
+                "key": "B",
+                "text": "Sosyal güvenlik hakkı"
+            },
+            {
+                "key": "C",
+                "text": "Dilekçe Hakkı"
+            },
+            {
+                "key": "D",
+                "text": "Seçme ve Seçilme hakkı"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 156,
+        "question": "Kaçakçılıkla Mücadele Kanunu’na göre aşağıdakilerden hangisi kaçakçılık kapsamında suç teşkil\neden fiillerinden biridir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Eşyayı, gümrük işlemlerine tabi tutmaksızın Türkiye ye ithal etmek"
+            },
+            {
+                "key": "B",
+                "text": "Eşyayı, sahte belge kullanmak suretiyle gümrük vergileri kısmaen veya tamamen ödenmeksizin,\nTürkiye’ye ithal etmek"
+            },
+            {
+                "key": "C",
+                "text": "Transit rejmi çerçevesinde taşınan serbest dolaşımda bulunmayan eşyayı, rejim hükümlerine\naykırı olarak gümrük bölgesinde bırakmak."
+            },
+            {
+                "key": "D",
+                "text": "Hepsi"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 157,
+        "question": "Bir ürünün pazarda tanınır durma geldiği ve satışlarının artmayı sürdürdüğü aşama\naşağıdakilerden hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Gelişme Aşaması"
+            },
+            {
+                "key": "B",
+                "text": "Büyüme Aşaması"
+            },
+            {
+                "key": "C",
+                "text": "Pazara giriş aşaması"
+            },
+            {
+                "key": "D",
+                "text": "Olgunluk aşaması"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 158,
+        "question": "Aşağıdakilerden hangisi borç ilişkisinde unsurlardan biri değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Alacaklı"
+            },
+            {
+                "key": "B",
+                "text": "Edim"
+            },
+            {
+                "key": "C",
+                "text": "Borçlu"
+            },
+            {
+                "key": "D",
+                "text": "İcra"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 159,
+        "question": "Türkiye’de demir yolları ile ilgili faaliyetleri sürdüren kuruluş aşağıdakilerden hangisidir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "DHMİ"
+            },
+            {
+                "key": "B",
+                "text": "TCK"
+            },
+            {
+                "key": "C",
+                "text": "TCDD"
+            },
+            {
+                "key": "D",
+                "text": "SHGM"
+            }
+        ],
+        "correct_answer": "C"
+    },
+    {
+        "id": 160,
+        "question": "Aşağıdakilerden hangisi zorunlu sorumluluk sigortalarından değildir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Kara yolları motorlu araçlar zorunlu mali sorumluluk sigortası"
+            },
+            {
+                "key": "B",
+                "text": "Zorunlu kara yolu taşımacılık mali sorumluluk sigortası"
+            },
+            {
+                "key": "C",
+                "text": "Tehlikeli maddeler ve tüp gaz zorunlu sorumluluk sigortası"
+            },
+            {
+                "key": "D",
+                "text": "Hepsi"
+            }
+        ],
+        "correct_answer": "D"
+    },
+    {
+        "id": 161,
+        "question": "İkiden fazla şeritli veya emniyet şeridi olamayan yollarda sağdaki araçların yolun sağına\nsoldakilerin ise yolun soluna yanaşarak orta kısımdan ambulansın geçişine yol vermesi şeklinde\nuygulananyol açma tekniğine ne ad verilir ?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Şerit Oluşturma tekniği"
+            },
+            {
+                "key": "B",
+                "text": "Fermuar Tekniği"
+            },
+            {
+                "key": "C",
+                "text": "Solu açma tekniği"
+            },
+            {
+                "key": "D",
+                "text": "Sağı açma tekniği"
+            }
+        ],
+        "correct_answer": "B"
+    },
+    {
+        "id": 162,
+        "question": "ADR’ye göre, Paketleme Grubu I aşağıdakilerden hangisini ifade etmektedir?",
+        "choices": [
+            {
+                "key": "A",
+                "text": "Çok tehlikeli"
+            },
+            {
+                "key": "B",
+                "text": "Orta tehlikeli"
+            },
+            {
+                "key": "C",
+                "text": "Az tehlikeli"
+            },
+            {
+                "key": "D",
+                "text": "Tehlikesiz"
+            }
+        ],
+        "correct_answer": "A"
+    }
+]
